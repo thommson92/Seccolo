@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seccolo - Spiel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #activityContainer {
+            background-color: #f8f9fa;
+            border: 2px solid #6c757d;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #495057;
+        }
+        #activityContainer h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .header-bar {
+            background-color: #8FBC8F;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 header-bar">Seccolo - Trinkspiel</h1>
+        <div id="activityContainer" class="text-center mb-4">
+            <!-- Aktuelle Aktivität wird hier angezeigt -->
+        </div>
+        <button id="nextButton" class="btn btn-primary w-100 mb-3">Nächste Aktivität</button>
+        <a href="index.html" class="btn btn-secondary w-100">Zurück zum Start</a>
+    </div>
+
+    <script>
+        // URL-Parameter auslesen und Spielernamen speichern
+        const urlParams = new URLSearchParams(window.location.search);
+        const players = [];
+        urlParams.forEach((value, key) => {
+            if (key.startsWith('player')) players.push(value);
+        });
+
+        if (players.length === 0) {
+            document.body.innerHTML = '<div class="alert alert-danger">Keine Spieler übergeben!</div>';
+            throw new Error('Keine Spieler übergeben');
+        }
+
+        // Set an Aktivitäten mit "X" als Platzhalter für Spielernamen
+        const activities = [
+            { text: 'Trinke ein Glas Wasser.', playersNeeded: 0 },
+            { text: 'X führt einen Tanz auf.', playersNeeded: 1 },
+            { text: 'X lässt sich ein Lied von X vorsingen.', playersNeeded: 2 },
+            { text: 'X ', playersNeeded: 2 },
+            { text: 'X wählt eine Kategorie. Nennt reihum passende Begriffe. Wem nichts mehr einfällt oder etwas doppelt nennt, trinkt 2 Schlücke.', playersNeeded: 1 },
+            { text: 'X ext das Glas eines beliebigen Mitspielers.', playersNeeded: 1 },
+            { text: 'Wer ab sofort X in die Augen schaut trinkt 2 Schlücke.', playersNeeded: 1 },
+            { text: 'X erzähle einen Witz. Lacht oder schmunzelt niemand trinnkst du 2 Schlücke.', playersNeeded: 1 },
+            { text: 'X, X und X. Einigt euch, wer von euch 2 Schlücke trinkt. (2 Stimmen für die Mehrheit)', playersNeeded: 3 },
+            { text: 'X und X. Spielt 3 Runden Schere-Stein-Papier! Verlierer trinkt 2 Schlücke.', playersNeeded: 2 },
+            { text: 'Stimmt ab! Wer ist die schönste Person? Nicht vorlesen: Jede/s Hässlon ohne Stimme trinkt 2 Schlücke.', playersNeeded: 0 }
+        ];
+
+        // Funktion, um Spieler zufällig auszuwählen
+        function getRandomPlayers(count) {
+            const shuffled = players.sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, count);
+        }
+
+        // Aktuelle Aktivität
+        let currentActivityIndex = 0;
+
+        // Platzhalter "X" durch Spielernamen ersetzen
+        function replacePlaceholders(text, selectedPlayers) {
+            let result = text;
+            selectedPlayers.forEach(player => {
+                result = result.replace('X', player);
+            });
+            return result;
+        }
+
+        // Nächste Aktivität anzeigen
+        function showNextActivity() {
+            const activityContainer = document.getElementById('activityContainer');
+
+            if (currentActivityIndex >= 30 || currentActivityIndex >= activities.length) {
+                activityContainer.innerHTML = '<h3>Das Spiel ist vorbei! Prost!</h3>';
+                document.getElementById('nextButton').disabled = true;
+                return;
+            }
+
+            const activity = activities[currentActivityIndex % activities.length];
+            const selectedPlayers = getRandomPlayers(activity.playersNeeded);
+            const activityText = replacePlaceholders(activity.text, selectedPlayers);
+
+            activityContainer.innerHTML = `
+                <h3>${activityText}</h3>
+            `;
+
+            currentActivityIndex++;
+        }
+
+        // Initiale Aktivität anzeigen
+        document.getElementById('nextButton').addEventListener('click', showNextActivity);
+        showNextActivity();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

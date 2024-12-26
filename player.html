@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seccolo - Spieler eingeben</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #activityContainer {
+            background-color: #f8f9fa;
+            border: 2px solid #6c757d;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: #495057;
+        }
+        #activityContainer h3 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        .header-bar {
+            background-color: #8FBC8F;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4 header-bar">Seccolo - Trinkspiel</h1>
+        <form id="playerForm">
+            <div id="playerInputs" class="mb-3">
+                <!-- Dynamische Spielerfelder werden hier eingefügt -->
+            </div>
+            <div class="alert alert-danger d-none" id="errorAlert"></div>
+            <button type="submit" class="btn btn-primary w-100 mb-3">Zum Spiel</button>
+        </form>
+        <a href="index.html" class="btn btn-secondary w-100">Zurück</a>
+    </div>
+
+    <script>
+        // URL-Parameter lesen
+        const urlParams = new URLSearchParams(window.location.search);
+        const players = parseInt(urlParams.get('players'), 10);
+
+        // Spieleranzahl validieren
+        if (isNaN(players) || players < 2 || players > 10) {
+            document.body.innerHTML = '<div class="alert alert-danger">Ungültige Spieleranzahl!</div>';
+            throw new Error('Ungültige Spieleranzahl');
+        }
+
+        // Spielerfelder erstellen
+        const playerInputs = document.getElementById('playerInputs');
+        for (let i = 1; i <= players; i++) {
+            const inputGroup = document.createElement('div');
+            inputGroup.className = 'mb-3';
+            inputGroup.innerHTML = `
+                <label for="player${i}" class="form-label">Spieler ${i} Name:</label>
+                <input type="text" class="form-control" id="player${i}" name="player${i}" required>
+            `;
+            playerInputs.appendChild(inputGroup);
+        }
+
+        // Formular validieren und abschicken
+        document.getElementById('playerForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const names = [];
+            let hasEmptyField = false;
+            const errorAlert = document.getElementById('errorAlert');
+
+            // Namen sammeln und überprüfen
+            for (let i = 1; i <= players; i++) {
+                const input = document.getElementById(`player${i}`);
+                const name = input.value.trim();
+
+                if (!name) {
+                    hasEmptyField = true;
+                } else {
+                    names.push(name);
+                }
+            }
+
+            // Fehler anzeigen, wenn ein Feld leer ist
+            if (hasEmptyField) {
+                errorAlert.textContent = 'Alle Namen müssen ausgefüllt sein!';
+                errorAlert.classList.remove('d-none');
+                return;
+            }
+
+            // Überprüfung auf doppelte Namen
+            const uniqueNames = new Set(names);
+            if (uniqueNames.size !== names.length) {
+                errorAlert.textContent = 'Keine doppelten Namen erlaubt!';
+                errorAlert.classList.remove('d-none');
+                return;
+            }
+
+            // Weiter zum Spiel
+            errorAlert.classList.add('d-none');
+            // Beispielsweise zu "game.html" navigieren mit den Namen als Query-Parameter
+            const queryParams = new URLSearchParams();
+            names.forEach((name, index) => queryParams.append(`player${index + 1}`, name));
+            window.location.href = `game.html?${queryParams.toString()}`;
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
