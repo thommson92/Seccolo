@@ -30,7 +30,7 @@
         const players = parseInt(urlParams.get('players'), 10);
 
         // Spieleranzahl validieren
-        if (isNaN(players) || players < 2 || players > 10) {
+        if (isNaN(players) || players < 2 || players > 12) {
             document.body.innerHTML = '<div class="alert alert-danger">Ungültige Spieleranzahl!</div>';
             throw new Error('Ungültige Spieleranzahl');
         }
