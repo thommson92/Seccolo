@@ -6,40 +6,19 @@
     <title>Seccolo</title>
     <link rel="icon" type="image/x-icon" href="seccolo.jpeg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        #activityContainer {
-            background-color: #f8f9fa;
-            border: 2px solid #6c757d;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            color: #495057;
-        }
-        #activityContainer h3 {
-            margin: 0;
-            font-size: 1.5rem;
-        }
-        .header-bar {
-            background-color: #8FBC8F;
-            color: white;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-4 header-bar">Seccolo - Trinkspiel</h1>
+        <h1 class="text-center mb-4 header-bar">Seccolo</h1>
         <div id="activityContainer" class="text-center mb-4">
             <!-- Aktuelle Aktivität wird hier angezeigt -->
         </div>
         <button id="nextButton" class="btn btn-primary w-100 mb-3">Weiter</button>
-    </div>
-        
-    <!-- Zurück Button -->
-    <div class="container mt-5">
-        <a href="index.html" class="btn btn-secondary w-100">Zurück zum Start</a>
+        <a id="backButton" href="index.html" class="btn btn-secondary w-100">Zurück zum Start</a>
+        <footer>
+            <span>Thomas Kellner &copy; 2024</span>
+        </footer>
     </div>
 
     <script>
@@ -57,17 +36,111 @@
 
         // Set an Aktivitäten mit "X" als Platzhalter für Spielernamen
         const activities = [
-            { text: 'Trinke ein Glas Wasser.', playersNeeded: 0 },
-            { text: 'X führt einen Tanz auf.', playersNeeded: 1 },
-            { text: 'X lässt sich ein Lied von X vorsingen.', playersNeeded: 2 },
-            { text: 'X und X. Wer von euch ist größer? Spielt keine Rolle, trinkt beide 2 Schlücke.', playersNeeded: 2 },
-            { text: 'X wählt eine Kategorie. Nennt reihum passende Begriffe. Wem nichts mehr einfällt oder etwas doppelt nennt, trinkt 2 Schlücke.', playersNeeded: 1 },
-            { text: 'X ext das Glas eines beliebigen Mitspielers.', playersNeeded: 1 },
-            { text: 'Wer ab sofort X in die Augen schaut trinkt 2 Schlücke.', playersNeeded: 1 },
-            { text: 'X erzähle einen Witz. Lacht oder schmunzelt niemand trinnkst du 2 Schlücke.', playersNeeded: 1 },
-            { text: 'X, X und X. Einigt euch, wer von euch 2 Schlücke trinkt. (2 Stimmen für die Mehrheit)', playersNeeded: 3 },
-            { text: 'X und X. Spielt 3 Runden Schere-Stein-Papier! Verlierer trinkt 2 Schlücke.', playersNeeded: 2 },
-            { text: 'Stimmt ab! Wer ist die schönste Person? Nicht vorlesen: Jede/s Hässlon ohne Stimme trinkt 2 Schlücke.', playersNeeded: 0 }
+            // Alle trinken
+            { text: ['Alle trinken 2 Schlücke zur Auflockerung.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle Frauen trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle Männer trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle Florians trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle Singles trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle Fussballer trinken 2 Schlücke. (Egal ob aktiv oder nicht)'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle Handballer trinken 2 Schlücke. (Egal ob aktiv oder nicht)'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle Singles trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle in einer Beziehung trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle mit Neujahrsvorsätzen trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle ohne Neujahrsvorsätze trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle mit roter Unterwäsche trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle mit schwarzen Socken trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle die eine Brille brauchen, trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+            { text: ['Alle die eine Spielekonsole besitzen, trinken 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allDrink' },
+
+            // Alle verteilen Schücke
+            { text: ['Alle die gerade Wein trinken verteilen 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Alle die gerade Bier trinken verteilen 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Alle die gerade einen Longdrink trinken verteilen 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Alle die eine Brille tragen verteilen 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Alle mit weißer Unterwäsche verteilen 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Alle die eine Fliege oder Krawatte tragen verteilen 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Alle die ein Kleid tragen verteilen 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Der Gastgeber verteilt 5 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Der/die Älteste verteilt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+            { text: ['Der/die Jüngste verteilt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'allVerteil' },
+
+            // Einzelperson trinkt
+            { text: ['X! Trinke ein ganzes Glas Wasser oder 2 Schlücke deines alkoholischen Getränks.'], playersNeeded: 1, multiStep: false, categorie: 'singleDrink' },
+            { text: ['X! Exe das Glas eines beliebigen Mitspielers.'], playersNeeded: 1, multiStep: false, categorie: 'singleDrink' },
+            
+
+            // Einzelperson verteilt
+            { text: ['Hey X, sexy Outfit! Verteile 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'singleVerteil' },
+            
+            // Koffer packen
+            { text: ['Ich packe meinen Koffer und nehme mit... X beginnt. Verlierer trinkt 2 Schlücke'], playersNeeded: 1, multiStep: false, categorie: 'koffer' },
+            { text: ['Ich packe meine Arbeitstasche und nehme mit... X beginnt. Verlierer trinkt 2 Schlücke'], playersNeeded: 1, multiStep: false, categorie: 'koffer' },
+            { text: ['Ich packe meinen Einkaufskorb und nehme mit... X beginnt. Verlierer trinkt 2 Schlücke'], playersNeeded: 1, multiStep: false, categorie: 'koffer' },
+            { text: ['Ich packe meine Sporttasche und nehme mit... X beginnt. Verlierer trinkt 2 Schlücke'], playersNeeded: 1, multiStep: false, categorie: 'koffer' },
+
+            // Abstimmungen
+            { text: ['Abstimmung! Pizza oder Pasta? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Urlaub in den Bergen oder am Strand. Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Lieber blind oder taub sein? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Überlebenskampf gegen einen Wolf oder ein Wildschwein? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Mehr Freizeit oder mehr Gehalt? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Nachwuchs steht an! Junge oder Mädchen? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Vodka Bull oder Jacky Cola? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Für immer flüstern oder für immer schreien? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Niemals duschen oder niemals Zähneputzen? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Eine Zombie-Apokalypse überleben oder im Mittelalter leben? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Jeden Tag einen neuen Job haben oder für immer denselben langweiligen Job machen? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Immer Muskelkater haben oder immer einen leichten Sonnenbrand haben? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Immer hungrig sein oder immer müde sein? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Nie wieder eine Waschmaschine oder eine Spülmaschine nutzen dürfen? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Gedanken lesen können, aber nicht abschalten können oder fliegen können? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Unter Wasser atmen können oder im Dunkeln sehen können? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Nur in die Vergangenheit reisen können oder nur in die Zukunft reisen können? Die Minderheit trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'vote' },
+            { text: ['Abstimmung! Wer ist die schönste Person? ...','Jede/s Hässlon ohne Stimme trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: true, categorie: 'vote' },
+
+            // Einzelspieleraktivitäten
+            { text: ['Kopfrechnen! X hat 5 Sekunden. Wie viel ist 12*17 ...', 'Lösung: 204. Liegt X richtig, dürfen 2 Schlücke verteilt werden, andernfalls selbst getrunken werden.'], playersNeeded: 1, multiStep: true, categorie: 'singlePlayerActivity' },
+            { text: ['X erzähle einen Witz. Lacht oder schmunzelt niemand trinnkst du 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'singlePlayerActivity' },
+            { text: ['X macht einen Purtzelbaum vorwärts oder trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'singlePlayerActivity' },
+            { text: ['X macht einen Purtzelbaum rückwärts oder trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'singlePlayerActivity' },
+            { text: ['X macht 3 Sekunden einen Handstand oder trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'singlePlayerActivity' },
+            { text: ['X macht ein Rad oder trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'singlePlayerActivity' },
+            { text: ['X macht einen Trick oder trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'singlePlayerActivity' },
+
+            // Zwei-Spieler-Aktivitäten
+            { text: ['Berufe-Pantomime: X stellt für 10 Sekunden einen Beruf pantomimisch dar, X rät. Scheitern sie, trinken beide 2 Schlücke.'], playersNeeded: 2, multiStep: false, categorie: 'doublePlayerActivity' },
+            { text: ['X schlürft Sekt/Wein aus X Bauchnabel oder beide trinken 3 Schlücke.'], playersNeeded: 2, multiStep: false, categorie: 'doublePlayerActivity' },
+            { text: ['X gib X 2€ oder beide trinken 3 Schlücke.'], playersNeeded: 2, multiStep: false, categorie: 'doublePlayerActivity' },
+            { text: ['X und X. Spielt 3 Runden Schere-Stein-Papier! Der Verlierer trinkt 2 Schlücke.'], playersNeeded: 2, multiStep: false, categorie: 'doublePlayerActivity' },
+            { text: ['X gib X einen Kuss auf die rechte Arschbacke oder trinkt beide 3 Schlücke.'], playersNeeded: 2, multiStep: false, categorie: 'doublePlayerActivity' },
+            { text: ['X und X. Wer von euch ist größer? ...', 'Spielt keine Rolle, trinkt beide 2 Schlücke.'], playersNeeded: 2, multiStep: true, categorie: 'doublePlayerActivity' },
+            { text: ['X summe für 30 Sekunden ein Lied, sodass X es errät. Bei Versagen trinken beide 2 Schlücke.'], playersNeeded: 2, multiStep: false, categorie: 'doublePlayerActivity' },
+            { text: ['Tanzen auf Kommando: X leg einen Song auf. X muss 10 Sekunden improvisiert dazu tanzen oder beide trinken 4 Schlücke.'], playersNeeded: 2, multiStep: false, categorie: 'doublePlayerActivity' },
+            
+            
+            // Drei-Spieler-Aktivitäten
+            { text: ['X, X und X. Einigt euch, wer von euch 2 Schlücke trinkt. (2 Stimmen für die Mehrheit)'], playersNeeded: 3, multiStep: false, categorie: 'tripplePlayerActivity' },
+            
+
+            // All Player Activities
+            { text: ['Jeder Spieler nennt einen deutschen Bundeskanzler (Doppelnennungen erlaub) ...', 'Scholz trinkt 2 Schlücke, Adenauer verteilt 2 Schlücke.'], playersNeeded: 2, multiStep: true, categorie: 'allPlayerActivity' },
+            { text: ['X beginnt mit einer Zeile seines Lieblingssongs. Reihum muss das Lied weiter ergänzt werden. Wer versagt, trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'allPlayerActivity' },
+            { text: ['X startet. Gebt einen Löffel reihum nur mit dem Mund weiter. Wer versagt, trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'allPlayerActivity' },
+            { text: ['Satzbau: X startet und jeder fügt ein Wort zum Satz hinzu. Wer den Faden verliert oder den Satz beendet trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'allPlayerActivity' },
+            { text: ['Rhyme-Time. X startet mit einem Begriff und reihum müssen passende Reime gefunden werden. Kein Reim? 2 Schlücke!'], playersNeeded: 2, multiStep: false, categorie: 'allPlayerActivity' },
+            { text: ['X wählt eine Kategorie. Nennt reihum passende Begriffe. Wem nichts mehr einfällt oder etwas doppelt nennt, trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'allPlayerActivity' },
+            { text: ['Schnapslotterie: X füllt Schnapsgläser heimlich mit Schnaps oder Wasser. Jeder wählt zufällig eines aus und trinkt.'], playersNeeded: 1, multiStep: false, categorie: 'allPlayerActivity' },
+            { text: ['Wahrheit oder Lüge: X erzählt eine Wahrheit oder Lüge über sich. Jeder Spieler entscheidet für sich ob er die Aussage glaubt oder nicht. Wer falsch liegt, trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'allPlayerActivity' },
+            
+            // Trinkregeln
+            { text: ['Alle Spieler dürfen ab sofort nur noch mit dem Nachnamen angesprochen werden. Bei Verstoß 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'drinkRules' },
+            { text: ['X! Du sprichst ab sofort Englisch. Bei jedem Verstoß trinkst du einen Schluck.'], playersNeeded: 1, multiStep: false, categorie: 'drinkRules' },
+            { text: ['Wer ab sofort X in die Augen schaut trinkt 2 Schlücke.'], playersNeeded: 1, multiStep: false, categorie: 'drinkRules' },
+            { text: ['Die Wörter Wein, Bier und Sekt sind ab sofort verboten. Bei Verstoß 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'drinkRules' },
+            { text: ['X überlegt sich eine Trinkregel. Wer diese vergisst, trinkt die gleiche Anzahl an Schlücken nochmal.'], playersNeeded: 1, multiStep: false, categorie: 'drinkRules' },
+            { text: ['Wer ab sofort ein Schimpfwort oder eine Beleidgung benutzt, trinkt 2 Schlücke.'], playersNeeded: 0, multiStep: false, categorie: 'drinkRules' },
+            
         ];
 
         // Funktion, um Spieler zufällig auszuwählen
@@ -76,8 +149,54 @@
             return shuffled.slice(0, count);
         }
 
-        // Aktuelle Aktivität
+        // Funktion, um sicherzustellen, dass bestimmte Kategorien in einer Mindestanzahl enthalten sind
+        function ensureCategoryDistribution(activities, categoryRequirements) {
+            const categorizedActivities = {};
+            const result = [];
+
+            // Aktivitäten nach Kategorien sortieren
+            activities.forEach(activity => {
+                if (!categorizedActivities[activity.category]) {
+                    categorizedActivities[activity.category] = [];
+                }
+                categorizedActivities[activity.category].push(activity);
+            });
+
+            // Aktivitäten gemäß Anforderungen hinzufügen
+            for (const [category, count] of Object.entries(categoryRequirements)) {
+                if (categorizedActivities[category]) {
+                    const selected = categorizedActivities[category].sort(() => 0.5 - Math.random()).slice(0, count);
+                    result.push(...selected);
+                }
+            }
+
+            // Restliche Aktivitäten auffüllen
+            const remainingActivities = activities.filter(activity => !result.includes(activity));
+            const remainingCount = 30 - result.length;
+            result.push(...remainingActivities.sort(() => 0.5 - Math.random()).slice(0, remainingCount));
+
+            return result.sort(() => 0.5 - Math.random());
+        }
+
+        // Kategorien und deren Mindestanzahl definieren
+        const categoryRequirements = {
+            'koffer': 2,
+            'allDrink' : 2,
+            'allVerteil' : 2,
+            'singleDrink' : 2,
+            'singleVerteil' : 2,
+            'vote' : 2,
+            'singlePlayerActivity' : 2,
+            'doublePlayerActivity' : 2,
+            'tripplePlayerActivity' : 2,
+            'allPlayerActivity' : 2,
+            'drinkRegel' : 2,
+        };
+        
+        // Aktivitäten zufällig mischen und abarbeiten
+        let shuffledActivities = ensureCategoryDistribution(activities, categoryRequirements);
         let currentActivityIndex = 0;
+        let currentStep = 0;
 
         // Platzhalter "X" durch Spielernamen ersetzen
         function replacePlaceholders(text, selectedPlayers) {
@@ -91,27 +210,49 @@
         // Nächste Aktivität anzeigen
         function showNextActivity() {
             const activityContainer = document.getElementById('activityContainer');
+            const nextButton = document.getElementById('nextButton');
 
-            if (currentActivityIndex >= 30 || currentActivityIndex >= activities.length) {
+            if (currentActivityIndex >= shuffledActivities.length || currentActivityIndex == 10) {
                 activityContainer.innerHTML = '<h3>Das Spiel ist vorbei! Prost!</h3>';
-                document.getElementById('nextButton').disabled = true;
+                nextButton.textContent = "Neues Spiel starten";
+                nextButton.addEventListener('click', () => {
+                    window.location.href = `game.html?${players.map((player, index) => `player${index}=${player}`).join('&')}`;
+                });
                 return;
             }
 
-            const activity = activities[currentActivityIndex % activities.length];
+            const activity = shuffledActivities[currentActivityIndex];
             const selectedPlayers = getRandomPlayers(activity.playersNeeded);
-            const activityText = replacePlaceholders(activity.text, selectedPlayers);
 
-            activityContainer.innerHTML = `
-                <h3>${activityText}</h3>
-            `;
+            if (currentStep === 0) {
+                const activityText = replacePlaceholders(activity.text[0], selectedPlayers);
+                activityContainer.innerHTML = `<h3>${activityText}</h3>`;
 
-            currentActivityIndex++;
+                if (activity.multiStep) {
+                    currentStep = 1;
+                } else {
+                    currentActivityIndex++;
+                }
+            } else {
+                const activityText = replacePlaceholders(activity.text[1], selectedPlayers);
+                activityContainer.innerHTML = `<h3>${activityText}</h3>`;
+                currentActivityIndex++;
+                currentStep = 0;
+            }
         }
 
         // Initiale Aktivität anzeigen
         document.getElementById('nextButton').addEventListener('click', showNextActivity);
         showNextActivity();
+
+        // Bestätigung für "Zurück zum Start"
+        document.getElementById('backButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            const confirmBack = confirm("Möchtest du wirklich zum Start zurückkehren? Das Spiel wird beendet.");
+            if (confirmBack) {
+                window.location.href = "index.html";
+            }
+        });
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

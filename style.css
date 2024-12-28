@@ -1,0 +1,34 @@
+#activityContainer {
+    background-color: #f8f9fa;
+    border: 2px solid #6c757d;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #495057;
+}
+#activityContainer h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.header-bar {
+    background-color: #8FBC8F;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    line-height: 60px;
+    height: 60px;
+    width: 100%;
+}
