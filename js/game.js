@@ -12,34 +12,12 @@ if (players.length === 0) {
 
 // Set an Aktivitäten mit "X" als Platzhalter für Spielernamen
 const activities = JSON.parse(sessionStorage.getItem('activities'))
-console.log(activities)
-console.log(activities.length)
-
-
-// Kategorien und deren Mindestanzahl definieren
-let amount = 20
-const categoryRequirements = {
-    'allDrink' : 0.1*amount,
-    'single' : 0.05*amount,
-    'koffer': 0.05*amount,
-    'vote' : 0.1*amount,
-    'singlePlayerActivity' : 0.05*amount,
-    'aufdieEins' : 0.05*amount,
-    'sprichwort' : 0.1*amount,
-    'singlePlayerSatzbildung' : 0.05*amount,
-    'doublePlayerActivity' : 0.05*amount,
-    'tripplePlayerActivity' : 0.05*amount,
-    'categories' : 0.1*amount,
-    'allPlayerActivity' : 0.1*amount,
-    'drinkRules' : 0.05*amount,
-};
 
 // Funktion, um Spieler zufällig auszuwählen
 function getRandomPlayers(count) {
     const shuffled = players.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
 }
-
 
 // Helper function to enforce category constraints while shuffling
 function shuffleWithCategoryConstraint(activities) {
@@ -61,43 +39,69 @@ function shuffleWithCategoryConstraint(activities) {
     return shuffled;
 }
 
-function ensureCategoryDistribution(activities, categoryRequirements) {
-    const categorizedActivities = {};
-    let result = [];
+function getRandomActivities(activities, category, count) {
+    // Filtere die Aktivitäten nach der angegebenen Kategorie
+    const filteredActivities = activities.filter(activity => activity.category === category);
 
-    // Aktivitäten nach Kategorien sortieren
-    activities.forEach(activity => {
-        if (!categorizedActivities[activity.category]) {
-            categorizedActivities[activity.category] = [];
-        }
-        categorizedActivities[activity.category].push(activity);
-    });
-
-    // Aktivitäten gemäß Anforderungen hinzufügen
-    for (const [category, count] of Object.entries(categoryRequirements)) {
-        if (categorizedActivities[category]) {
-            const selected = categorizedActivities[category].sort(() => 0.5 - Math.random()).slice(0, count);
-            result.push(...selected);
-        }
+    // Prüfe, ob genügend Aktivitäten vorhanden sind
+    if (filteredActivities.length < count) {
+        console.error('Nicht genügend Aktivitäten in dieser Kategorie.: ', category);
+        return [];
     }
 
-    // Restliche Aktivitäten auffüllen
-    const remainingActivities = activities.filter(activity => !result.includes(activity));
-    const remainingCount = 30 - result.length;
-    result.push(...remainingActivities.sort(() => 0.5 - Math.random()).slice(0, remainingCount));
+    // Mische das Array der gefilterten Aktivitäten zufällig
+    for (let i = filteredActivities.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [filteredActivities[i], filteredActivities[j]] = [filteredActivities[j], filteredActivities[i]];
+    }
+
+    // Gebe die angeforderte Anzahl an zufälligen Aktivitäten zurück
+    return filteredActivities.slice(0, count);
+}
+
+function ensureCategoryDistribution(activitiesTemp, amount) {
+
+    // Kategorien und deren Mindestanzahl definieren
+    let categoryRequirements = {
+        'allDrink' : Math.round(0.1*amount),
+        'single' : Math.round(0.05*amount),
+        'koffer': Math.round(0.05*amount),
+        'vote' : Math.round(0.1*amount),
+        'singlePlayerActivity' : Math.round(0.05*amount),
+        'aufdieEins' : Math.round(0.05*amount),
+        'sprichwort' : Math.round(0.1*amount),
+        'singlePlayerSatzbildung' : Math.round(0.05*amount),
+        'categories' : Math.round(0.1*amount),
+        'allPlayerActivity' : Math.round(0.1*amount),
+        'drinkRules' : Math.round(0.05*amount),
+    };
+
+    console.log(categoryRequirements)
+    // Aktivitäten filtern, wenn Spieleranzahl 2 ist
+    let activities = activitiesTemp;
+    if (players.length === 2) {
+        activities = activitiesTemp.filter(activity => activity.playersNeeded < 3);
+        categoryRequirements.doublePlayerActivity = Math.round(0.1*amount);
+    } else {
+        categoryRequirements.doublePlayerActivity = Math.round(0.05*amount);
+        categoryRequirements.tripplePlayerActivity = Math.round(0.05*amount);
+    }
+    console.log(categoryRequirements)
+
+    // Initialisiere Aktivitäten
+    let result = [];
+    for (const [category, count] of Object.entries(categoryRequirements)) {
+        selected = getRandomActivities(activities, category, count);
+        result.push(...selected);
+    }
 
     // Sicherstellen, dass keine zwei Aktivitäten derselben Kategorie direkt aufeinander folgen
     return shuffleWithCategoryConstraint(result);
 }
 
-// Aktivitäten filtern, wenn Spieleranzahl 2 ist
-let filteredActivities = activities;
-if (players.length === 2) {
-    filteredActivities = activities.filter(activity => activity.playersNeeded < 3);
-}
-
 // Aktivitäten zufällig mischen und abarbeiten
-let shuffledActivities = ensureCategoryDistribution(filteredActivities, categoryRequirements);
+let rounds = 20
+let shuffledActivities = ensureCategoryDistribution(activities, rounds);
 let currentActivityIndex = 0;
 let currentStep = 0;
 
@@ -110,15 +114,12 @@ function replacePlaceholders(text, selectedPlayers) {
     return result;
 }
 
-// Variable to store players for multi-step activities
-let multiStepPlayers = [];
-
 // Nächste Aktivität anzeigen
 function showNextActivity() {
     const activityContainer = document.getElementById('activityContainer');
     const nextButton = document.getElementById('nextButton');
 
-    if (currentActivityIndex >= shuffledActivities.length || currentActivityIndex == 20) {
+    if (currentActivityIndex >= shuffledActivities.length) { // || currentActivityIndex == 20)
         activityContainer.innerHTML = '<h3>Das Spiel ist vorbei! Prost!</h3>';
         nextButton.textContent = "Neues Spiel starten";
         nextButton.addEventListener('click', () => {

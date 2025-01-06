@@ -23,8 +23,6 @@ loadActivities().then(activities => {
     if (activities) {
         // Proceed with initializing the game
         sessionStorage.setItem('activities', JSON.stringify(activities));
-        console.log(activities)
-        console.log(activities.length)
     } else {
         console.error('Failed to load activities.');
     }
