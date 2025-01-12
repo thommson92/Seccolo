@@ -23,26 +23,18 @@ function getRandomPlayers(count) {
 function shuffleWithCategoryConstraint(result) {
 
     // Aktivitäten filtern, wenn Spieleranzahl 2 ist
-    let temporaryShuffledAcitivities = [...result];
+    const shuffled = [...result];
 
-    // Iterationsparamter
-    let shuffled = [];
-    let lastCategory = null;
+    // Mische Random
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        // Zufälligen Index generieren
+        const j = Math.floor(Math.random() * (i + 1));
     
-    // Starte While-Schleife
-    while (temporaryShuffledAcitivities.length > 0) {
-        const index = temporaryShuffledAcitivities.findIndex(activity => activity.category !== lastCategory);
-        if (index === -1) break; // This shouldn't happen with proper inputs.
-
-        const [selected] = temporaryShuffledAcitivities.splice(index, 1);
-        shuffled.push(selected);
-        lastCategory = selected.category;
+        // Elemente tauschen
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
-
-    // If there are remaining activities, append them at the end (edge cases)
-    shuffled.push(...temporaryShuffledAcitivities);
-
-    return shuffled;
+    // Returniere
+    return shuffled;   
 }
 
 function getRandomActivities(activities, category, count) {
@@ -80,7 +72,7 @@ function ensureCategoryDistribution(activitiesTemp, amount) {
         'singlePlayerSatzbildung' : Math.round(0.05*amount),
         'categories' : Math.round(0.1*amount),
         'allPlayerActivity' : Math.round(0.1*amount),
-        'drinkRules' : Math.round(0.05*amount),
+        'drinkRules' : Math.round(0.05*amount)
     };
 
     // Aktivitäten filtern, wenn Spieleranzahl 2 ist
@@ -95,33 +87,69 @@ function ensureCategoryDistribution(activitiesTemp, amount) {
         categoryRequirements.tripplePlayerActivity = Math.round(0.05*amount);
     }
  
-    // Initialisiere Aktivitäten
-    let result = [];
+    // Initialisiere regulare Aktivitäten
+    let resultsRegular    = [];
+    let resultsDrinkRules = [];
     for (const [category, count] of Object.entries(categoryRequirements)) {
         let randomlySelectedActivities = getRandomActivities(activitiesRaw, category, count);
-        result.push(...randomlySelectedActivities);
+        if (category === "drinkRules") {
+            resultsDrinkRules.push(...randomlySelectedActivities);
+        } else {
+            resultsRegular.push(...randomlySelectedActivities);
+        }
     }
  
     // Sicherstellen, dass keine zwei Aktivitäten derselben Kategorie direkt aufeinander folgen
-    let shuffledConstraintActivities = shuffleWithCategoryConstraint(result);
+    let shuffledConstraintActivities = shuffleWithCategoryConstraint(resultsRegular);
 
-    // Füge bei allen Trinkregeln plus 5 Aktionen dann die Aufhebung wieder ein
-    let finalActivities = addDrinkRuleEndings(shuffledConstraintActivities);
-    return finalActivities
+    // Füge alle Trinkregeln hinzu und hebe diese nach 5 Schritten wieder auf
+    let finalActivities = addDrinkRules(shuffledConstraintActivities, resultsDrinkRules);
+    return finalActivities;
 }
 
-function addDrinkRuleEndings(shuffledConstraintActivities) {
+function generateUniqueRandomNumbers(n, min, max) {
+    if (n > (max - min + 1)) {
+      throw new Error(`Es können maximal ${max - min + 1} einzigartige Zahlen generiert werden.`);
+    }
+  
+    let numbers = [];
+    while (numbers.length < n) {
+      let randomNum = Math.floor(Math.random() * (max - min + 1)) + min; // Zufallszahl im Bereich [min, max]
+      if (!numbers.includes(randomNum)) {
+        numbers.push(randomNum);
+      }
+    }
+    return numbers;
+}
 
-    // Indizes
-    // let index = shuffledConstraintActivities.findIndex(p => p.endAfterRows > 0);
-    // for (object in shuffledConstraintActivities) {
-    const finalActivities = shuffledConstraintActivities //.toSpliced(2, 0, {
-    return finalActivities
+function addDrinkRules(shuffledConstraintActivities, resultsDrinkRules) {
 
+    // Kopie
+    let finalActivities = [...shuffledConstraintActivities];
+
+    // Erstelle n random numbers
+    let indizes = generateUniqueRandomNumbers(resultsDrinkRules.length, 1, finalActivities.length - 5);
+    
+    // Iteriere über indizes und füge ein
+    for (let i = 0; i < indizes.length; i++) {
+        finalActivities.splice(indizes[i], 0, resultsDrinkRules[i]);
+    }
+
+    // Iteriere über Aktivitäten und Füge die Enden der Trinkregeln ein
+    for (let i = 0; i < finalActivities.length; i++) {
+        if (finalActivities[i].category === "drinkRules") {
+            let tempDrinkRule = JSON.parse(JSON.stringify(finalActivities[i]))
+            tempDrinkRule.text[0] = tempDrinkRule.text[1]
+            tempDrinkRule.category = "drinkRuleFinished" // To not being performed again in for loop
+            finalActivities.splice(i+5, 0, tempDrinkRule);
+        }
+    }
+
+    return finalActivities;
 }
 
 // Aktivitäten zufällig mischen und abarbeiten
-let rounds = 20
+let rounds = 20;
 let shuffledActivities = ensureCategoryDistribution(activities, rounds);
 let currentActivityIndex = 0;
 let currentStep = 0;
@@ -150,8 +178,6 @@ function showNextActivity() {
     }
 
     const activity = shuffledActivities[currentActivityIndex];
-    const selectedPlayers = getRandomPlayers(activity.playersNeeded);
-
     if (currentStep === 0) {
         multiStepPlayers = getRandomPlayers(activity.playersNeeded);
         const activityText = replacePlaceholders(activity.text[0], multiStepPlayers);

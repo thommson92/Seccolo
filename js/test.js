@@ -2875,11 +2875,109 @@ function shuffleWithCategoryConstraint(result) {
 }
 
 
+// Alternative von ChatGPT
+// Helper function to enforce category constraints while shuffling
+function shuffleWithCategoryConstraint(result) {
+
+    // Aktivitäten filtern, wenn Spieleranzahl 2 ist
+    let temporaryShuffledAcitivities = [...result];
+
+    // Gruppiere Aktivitäten nach Kategorien
+    const grouped = temporaryShuffledAcitivities.reduce((groups, activity) => {
+        groups[activity.kategorie] = groups[activity.kategorie] || [];
+        groups[activity.kategorie].push(activity);
+        return groups;
+    }, {});
+
+    // Sortiere Kategorien nach der Anzahl der Aktivitäten (absteigend)
+    const sortedCategories = Object.keys(grouped).sort(
+        (a, b) => grouped[b].length - grouped[a].length
+    );
+
+    // Erzeuge eine valide Reihenfolge
+    const shuffled = [];
+    while (shuffled.length < temporaryShuffledAcitivities.length) {
+        for (const category of sortedCategories) {
+            if (grouped[category].length > 0) {
+                shuffled.push(grouped[category].pop());
+            }
+        }
+    }
+
+    shuffled.forEach((element,index,array) => {
+        console.log(element.category);
+        console.log('')
+    });
+
+    const restrictedElement = "drinkRules";
+    const restrictedIndices = [];
+
+    // Finde alle Indices von "Kaffee trinken"
+    arr.forEach((item, index) => {
+        if (itemcategory === restrictedElement) {
+            restrictedIndices.push(index);
+        }
+    });
+
+    // Stelle sicher, dass keine Instanz von "Kaffee trinken" das letzte Element ist
+    restrictedIndices.forEach((index) => {
+        if (index === arr.length - 1) {
+            // Tausche das letzte Element mit einem zufälligen Element, das nicht zu den letzten 5 gehört
+            const randomIndex = Math.floor(Math.random() * (arr.length - 5));
+            [arr[index], arr[randomIndex]] = [arr[randomIndex], arr[index]];
+        }
+    });
+
+    // Mische den Rest des Arrays mit dem Fisher-Yates-Algorithmus
+    for (let i = arr.length - 1; i > 0; i--) {
+        // Verhindere, dass "Kaffee trinken" unter den letzten 5 Elementen landet
+        if (i <= arr.length - 5 && restrictedIndices.includes(i)) {
+            const randomIndex = Math.floor(Math.random() * (arr.length - 5));
+            [arr[i], arr[randomIndex]] = [arr[randomIndex], arr[i]];
+        } else {
+            // Zufälligen Index generieren
+            const j = Math.floor(Math.random() * (i + 1));
+
+            // Elemente tauschen
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+    }
+
+    console.log('')
+    console.log('')
+    console.log('After 5 Indizes')
+    console.log('')
+    shuffled.forEach((element,index,array) => {
+        console.log(element.category);
+        console.log('')
+    });
+
+    // Returniere
+    return shuffled;   
+
+
+
+    // Prüfe und verschiebe "drinkRules"-Aktivitäten wenn unter den letzten 5
+    const lastFiveStartIndex = Math.max(0, shuffled.length - 5); // Index der letzten 5 Aktivitäten
+    for (let i = shuffled.length - 1; i >= lastFiveStartIndex; i--) {
+        if (shuffled[i].kategorie === "drinkRules") {
+            // Schiebe um 5 Positionen nach vorne, aber bleibe im Array-Bereich
+            const targetIndex = Math.max(0, i - 5);
+            const [activity] = shuffled.splice(i, 1); // Entferne die Aktivität
+            shuffled.splice(targetIndex, 0, activity); // Füge sie an neuer Position ein
+        }
+    }
+}
 
 
 
 
 
+for (let i = shuffled.length - 1; i > 0; i--) {
+    // Zufälligen Index generieren
+    const j = Math.floor(Math.random() * (i + 1));
 
-
+    // Elemente tauschen
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+}
  
