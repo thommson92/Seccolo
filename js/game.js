@@ -11,7 +11,7 @@ if (players.length === 0) {
 }
 
 // Set an Aktivitäten mit "X" als Platzhalter für Spielernamen
-const activities = JSON.parse(sessionStorage.getItem('activities'))
+let activities = JSON.parse(sessionStorage.getItem('activities'))
 
 // Funktion, um Spieler zufällig auszuwählen
 function getRandomPlayers(count) {
@@ -20,26 +20,33 @@ function getRandomPlayers(count) {
 }
 
 // Helper function to enforce category constraints while shuffling
-function shuffleWithCategoryConstraint(activities) {
+function shuffleWithCategoryConstraint(result) {
+
+    // Aktivitäten filtern, wenn Spieleranzahl 2 ist
+    let temporaryShuffledAcitivities = [...result];
+
+    // Iterationsparamter
     let shuffled = [];
     let lastCategory = null;
-
-    while (activities.length > 0) {
-        const index = activities.findIndex(activity => activity.category !== lastCategory);
+    
+    // Starte While-Schleife
+    while (temporaryShuffledAcitivities.length > 0) {
+        const index = temporaryShuffledAcitivities.findIndex(activity => activity.category !== lastCategory);
         if (index === -1) break; // This shouldn't happen with proper inputs.
 
-        const [selected] = activities.splice(index, 1);
+        const [selected] = temporaryShuffledAcitivities.splice(index, 1);
         shuffled.push(selected);
         lastCategory = selected.category;
     }
 
     // If there are remaining activities, append them at the end (edge cases)
-    shuffled.push(...activities);
+    shuffled.push(...temporaryShuffledAcitivities);
 
     return shuffled;
 }
 
 function getRandomActivities(activities, category, count) {
+    
     // Filtere die Aktivitäten nach der angegebenen Kategorie
     const filteredActivities = activities.filter(activity => activity.category === category);
 
@@ -64,10 +71,10 @@ function ensureCategoryDistribution(activitiesTemp, amount) {
     // Kategorien und deren Mindestanzahl definieren
     let categoryRequirements = {
         'allDrink' : Math.round(0.1*amount),
-        'single' : Math.round(0.05*amount),
+        'single' : Math.round(0.1*amount),
         'koffer': Math.round(0.05*amount),
         'vote' : Math.round(0.1*amount),
-        'singlePlayerActivity' : Math.round(0.05*amount),
+        'singlePlayerActivity' : Math.round(0.1*amount),
         'aufdieEins' : Math.round(0.05*amount),
         'sprichwort' : Math.round(0.1*amount),
         'singlePlayerSatzbildung' : Math.round(0.05*amount),
@@ -76,27 +83,41 @@ function ensureCategoryDistribution(activitiesTemp, amount) {
         'drinkRules' : Math.round(0.05*amount),
     };
 
-    console.log(categoryRequirements)
     // Aktivitäten filtern, wenn Spieleranzahl 2 ist
-    let activities = activitiesTemp;
+    let activitiesRaw = [...activitiesTemp];
+
+    //let activities = activitiesTemp;
     if (players.length === 2) {
-        activities = activitiesTemp.filter(activity => activity.playersNeeded < 3);
+        activities = activitiesRaw.filter(activity => activity.playersNeeded < 3);
         categoryRequirements.doublePlayerActivity = Math.round(0.1*amount);
     } else {
         categoryRequirements.doublePlayerActivity = Math.round(0.05*amount);
         categoryRequirements.tripplePlayerActivity = Math.round(0.05*amount);
     }
-    console.log(categoryRequirements)
-
+ 
     // Initialisiere Aktivitäten
     let result = [];
     for (const [category, count] of Object.entries(categoryRequirements)) {
-        selected = getRandomActivities(activities, category, count);
-        result.push(...selected);
+        let randomlySelectedActivities = getRandomActivities(activitiesRaw, category, count);
+        result.push(...randomlySelectedActivities);
     }
-
+ 
     // Sicherstellen, dass keine zwei Aktivitäten derselben Kategorie direkt aufeinander folgen
-    return shuffleWithCategoryConstraint(result);
+    let shuffledConstraintActivities = shuffleWithCategoryConstraint(result);
+
+    // Füge bei allen Trinkregeln plus 5 Aktionen dann die Aufhebung wieder ein
+    let finalActivities = addDrinkRuleEndings(shuffledConstraintActivities);
+    return finalActivities
+}
+
+function addDrinkRuleEndings(shuffledConstraintActivities) {
+
+    // Indizes
+    // let index = shuffledConstraintActivities.findIndex(p => p.endAfterRows > 0);
+    // for (object in shuffledConstraintActivities) {
+    const finalActivities = shuffledConstraintActivities //.toSpliced(2, 0, {
+    return finalActivities
+
 }
 
 // Aktivitäten zufällig mischen und abarbeiten

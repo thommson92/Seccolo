@@ -1,4 +1,4 @@
-[
+activitiesJSON = [
     {
         "text": [
             "Alle trinken 2 Schlücke zur Auflockerung."
@@ -2704,3 +2704,182 @@
         "endAfterRows": 5
     }
 ]
+
+async function loadActivities() {
+    try {
+        const response = await fetch('activities.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const activities = await response.json();
+        return activities; // Returns the loaded activities
+    } catch (error) {
+        console.error('Error fetching activities:', error);
+        return null; // Return null in case of an error
+    }
+}
+
+
+function getRandomActivities(activities, category, count) {
+    // Filtere die Aktivitäten nach der angegebenen Kategorie
+    const filteredActivities = activities.filter(activity => activity.category === category);
+
+    // Prüfe, ob genügend Aktivitäten vorhanden sind
+    if (filteredActivities.length < count) {
+        console.error('Nicht genügend Aktivitäten in dieser Kategorie.: ', category);
+        return [];
+    }
+
+    // Mische das Array der gefilterten Aktivitäten zufällig
+    for (let i = filteredActivities.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [filteredActivities[i], filteredActivities[j]] = [filteredActivities[j], filteredActivities[i]];
+    }
+
+    let returnActivities = filteredActivities.slice(0, count);
+    // Gebe die angeforderte Anzahl an zufälligen Aktivitäten zurück
+    return returnActivities
+}
+
+// Helper function to enforce category constraints while shuffling
+function shuffleWithCategoryConstraint(activities) {
+
+    let arr = [1];
+    let shuffled = [];
+    while (arr.filter(x => x > 0).length >= 1) {
+        
+        // Initialilize values
+        shuffled = [];
+        let lastCategory = null;
+
+        while (activities.length > 0) {
+            const index = activities.findIndex(activity => activity.category !== lastCategory);
+            if (index === -1) break; // This shouldn't happen with proper inputs.
+
+            const [selected] = activities.splice(index, 1);
+            shuffled.push(selected);
+            lastCategory = selected.category;
+        }
+
+        // If there are remaining activities, append them at the end (edge cases)
+        shuffled.push(...activities);
+        const last5 = shuffled.slice(-5);
+        arr = last5.map(objekt => objekt.endAfterRows);
+    }
+    return shuffled;
+}
+
+function addDrinkRuleEndings(shuffledConstraintActivities) {
+
+    // Indizes
+    let index = shuffledConstraintActivities.findIndex(p => p.endAfterRows > 0);
+    // for (object in shuffledConstraintActivities) {
+    const finalActivities = shuffledConstraintActivities //.toSpliced(2, 0, {
+    return finalActivities
+
+}
+
+// Kategorien und deren Mindestanzahl definieren
+amount = 20
+let categoryRequirements = {
+   //' 'allDrink' : Math.round(0.1*amount),
+   //' 'single' : Math.round(0.1*amount),
+   //' 'koffer': Math.round(0.05*amount),
+   //' 'vote' : Math.round(0.1*amount),
+   //' 'singlePlayerActivity' : Math.round(0.1*amount),
+   //' 'aufdieEins' : Math.round(0.05*amount),
+   //' 'sprichwort' : Math.round(0.1*amount),
+   //' 'singlePlayerSatzbildung' : Math.round(0.05*amount),
+    'categories' : Math.round(0.2*amount),
+    //'allPlayerActivity' : Math.round(0.1*amount),
+    //'drinkRules' : Math.round(0.05*amount),
+};
+
+
+// Set an Aktivitäten mit "X" als Platzhalter für Spielernamen
+const players = ['Thomas', 'Sepp', 'Joerg']
+const activitiesTemp = [...activitiesJSON];
+//const activitiesTemp = activitiesJSON // JSON.parse(activitiesJSON)
+let rounds = 20
+//let shuffledActivities = ensureCategoryDistribution(activities, rounds);
+
+
+
+// Initialisiere Aktivitäten
+let result = [];
+for (const [category, count] of Object.entries(categoryRequirements)) {
+    let randomlySelectedActivities = getRandomActivities(activitiesTemp, category, count);
+    //console.log('randomlySelectedActivities', randomlySelectedActivities[0])
+    //for (var i = 0; i < randomlySelectedActivities.length; i++) {
+       // result.push(randomlySelectedActivities[i]);
+       // }
+    result.push(...randomlySelectedActivities);
+    //result = randomlySelectedActivities;
+}
+console.log('result',result)
+
+// Sicherstellen, dass keine zwei Aktivitäten derselben Kategorie direkt aufeinander folgen
+let handoverResults = [...result];
+shuffledConstraintActivities = shuffleWithCategoryConstraint(handoverResults);
+
+// Füge bei allen Trinkregeln plus 5 Aktionen dann die Aufhebung wieder ein
+let finalActivities = addDrinkRuleEndings(shuffledConstraintActivities);
+
+
+// Logs
+console.log('activitiesTemp', activitiesTemp[0])
+console.log('result', result[0])
+console.log('shuffledConstraintActivities', shuffledConstraintActivities[0])
+console.log('finalActivities', finalActivities[0])
+
+
+// Starter Logik
+const activityPlayed  = finalActivities[0];
+const activityText    = activityPlayed.text[0];
+
+//
+console.log("Aktivitäten final", finalActivities.length)
+
+
+
+// Make sure that /usr/local/bin is in your $PATH.
+activitiesTemp// Helper function to enforce category constraints while shuffling
+function shuffleWithCategoryConstraint(result) {
+
+    // Aktivitäten filtern, wenn Spieleranzahl 2 ist
+    let temporaryShuffledAcitivities = [...result];
+
+    let arr = [1];
+    let shuffled = [];
+    while (arr.filter(x => x > 0).length >= 1) {
+        
+        // Initialilize values
+        shuffled = [];
+        let lastCategory = null;
+
+        while (temporaryShuffledAcitivities.length > 0) {
+            const index = temporaryShuffledAcitivities.findIndex(activity => activity.category !== lastCategory);
+            if (index === -1) break; // This shouldn't happen with proper inputs.
+
+            const [selected] = temporaryShuffledAcitivities.splice(index, 1);
+            shuffled.push(selected);
+            lastCategory = selected.category;
+        }
+
+        // If there are remaining activities, append them at the end (edge cases)
+        shuffled.push(...temporaryShuffledAcitivities);
+        const last5 = shuffled.slice(-5);
+        arr = last5.map(objekt => objekt.endAfterRows);
+    }
+    return shuffled;
+}
+
+
+
+
+
+
+
+
+
+ 

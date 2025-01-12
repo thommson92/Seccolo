@@ -7,7 +7,6 @@ function updatePlayerCount(value) {
 async function loadActivities() {
     try {
         const response = await fetch('./js/activities.json');
-        console.log(response)
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
