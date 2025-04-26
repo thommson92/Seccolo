@@ -1,0 +1,148 @@
+[
+    {
+        "text": [
+            "X! Trinke ein ganzes Glas Wasser oder 3 Schlücke deines alkoholischen Getränks."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Exe das Glas eines beliebigen Mitspielers."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile 3 Schlücke an eine Person die brauner ist als du, wenn möglich. Ansonsten trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile 3 Schlücke an eine Person die älter ist als du, wenn möglich. Ansonsten trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile 3 Schlücke an eine Person die jünger ist als du, wenn möglich. Ansonsten trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile 3 Schlücke an eine Person die größer ist als du, wenn möglich. Ansonsten trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile 3 Schlücke an eine Person die kleiner ist als du, wenn möglich. Ansonsten trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile 3 Schlücke an eine Person die schöner ist als du, wenn möglich. Ansonsten trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile 3 Schlücke an eine Person die schicker angezogen ist als du, wenn möglich. Ansonsten trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! Verteile so viele Schlücke, wie du Geschwister hast. Falls du ein Einzelkind bist, exe dein Glas."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Die Frau und der Mann mit den meisten festen Partnern trinken 2 Schlücke."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X trinke 2 Schlücke, wenn du dich schon einmal in einer Schlange vorgedrängelt hast, ansonsten verteile sie."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Hey X, sexy Outfit! Verteile 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X! entscheide welcher Spieler 5 Schlücke trinken muss!"
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X wer denkst du ist aktuell am betrunkensten? ...",
+            "Dichti verteilt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "single",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X wer denkst du ist aktuell am nüchternsten? ...",
+            "Die Spaßbremse trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "single",
+        "endAfterRows": 0
+    }
+]

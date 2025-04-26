@@ -1,0 +1,92 @@
+[
+    {
+        "text": [
+            "Abstimmung! X, X und X. Einigt euch, wer von euch 2 Schlücke trinkt. (2 Stimmen für die Mehrheit)"
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Blickdreieck! X, X und X. Bei 3 schaut jede Person einer der anderen beiden in die Augen. Schauen sich 2 Spieler gegenseitig an, habt ihr verloren und trinkt 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Zahlen-Raten! X, X und X denkt an eine Zahl zwischen 1 und 8. Sprecht sie auf 3 laut aus. Stimmen 2 Zahlen überein trinken alle drei 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Sychrontrinken! X, X und X trinkt gleichzeitig einen Schluck. Schafft ihr es nicht, trinken alle drei 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Statuen-Standbild! X gibt ein Thema vor, X und X stellen dazu eine Statue nach. Die lustigere Statue verteilt 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Daumen hoch! X, X und X schließt die Augen und zeigt den rechten Daumen entweder nach oben oder nach unten. Wenn ein Spieler alleine in eine Richtung zeigt, trinkt er/sie 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X stelle eine Behauptung auf. X und X einigt euch, ob diese wahr oder falsch ist. Liegt ihr richtig, dürft ihr 2 Schlücke verteilen, sonst trinkt ihr 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X denke an ein Tier. X und X ihr habt 3 ja/nein-Fragen um das Tier zu erraten, sonst trinkt ihr 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X klatsche einen Takt (Maximal 10 Klatscher). X und X müssen diesen nachklatschen. Schaffen sie es, dürfen 2 Schlücke verteilt, sonst 3 getrunken werden."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X, X und X aufgepasst! Wer zuletzt den Zeigefinger an der Nase hat, trinkt 3 Schlücke."
+        ],
+        "playersNeeded": 3,
+        "multiStep": false,
+        "category": "tripplePlayerActivity",
+        "endAfterRows": 0
+    }
+]

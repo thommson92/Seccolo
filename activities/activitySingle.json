@@ -1,0 +1,120 @@
+[
+    {
+        "text": [
+            "Kopfrechnen! X hat 5 Sekunden. Wie viel ist 12*17 ...",
+            "Lösung: 204. Liegt X richtig, dürfen 2 Schlücke verteilt werden, andernfalls selbst getrunken werden."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X erzähle einen Witz. Lacht oder schmunzelt niemand trinnkst du 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X macht einen Purtzelbaum vorwärts oder trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X macht einen Purtzelbaum rückwärts oder trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X macht 3 Sekunden einen Handstand oder trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X macht ein Rad oder trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X macht einen Trick oder trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X du hast 60 Sekunden um das Alphabet rückwärts aufzusagen. Trinke 2 Schlücke wenn du scheiterst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X darf 60 Sekunden nicht lächeln sonst trinkt er/sie 3 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X zeig uns 5 Liegestützen oder trinke 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X nenne uns etwas, das du magst. Alle Spieler, die das nicht mögen, trinken 3 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X imitiere 5 Sekunden eine Schlange oder trinke 5 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X imitiere 5 Sekunden einen Frosch oder trinke 5 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "singlePlayerActivity",
+        "endAfterRows": 0
+    }
+]

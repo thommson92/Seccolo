@@ -1,0 +1,47 @@
+[
+    {
+        "text": [
+            "Ich packe meinen Koffer und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Ich packe meine Arbeitstasche und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Ich packe meinen Einkaufskorb und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Ich packe meine Sporttasche und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X beginnt mit einer Geste. Reihum muss diese Geste wiederholt werden und eine weitere ergänzt werden. Wer den ersten Fehler macht, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0
+    }
+]

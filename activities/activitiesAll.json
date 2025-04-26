@@ -1,0 +1,231 @@
+[
+    {
+        "text": [
+            "Jeder Spieler nennt einen deutschen Bundeskanzler (Doppelnennungen erlaub) ...",
+            "Olaf Scholz trinkt 2 Schlücke, Konrad Adenauer verteilt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": true,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X beginnt mit einer Zeile seines Lieblingssongs. Reihum muss das Lied weiter ergänzt werden. Wer versagt, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X startet. Gebt einen Löffel reihum nur mit dem Mund weiter. Wer versagt, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Satzbau: X startet und jeder fügt ein Wort zum Satz hinzu. Wer den Faden verliert oder den Satz beendet trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Rhyme-Time. X startet mit einem Begriff und reihum müssen passende Reime gefunden werden. Kein Reim? 2 Schlücke!"
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Schnapslotterie: X füllt Schnapsgläser heimlich mit Schnaps oder Wasser. Jeder wählt zufällig eines aus und trinkt."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Wahrheit oder Lüge: X erzählt eine Wahrheit oder Lüge über sich. Jeder Spieler entscheidet für sich ob er die Aussage glaubt oder nicht. Wer falsch liegt, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Jeder trinkt so viele Schlücke wie er Punkte in Flensburg gesammelt hat."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X denke dir eine Kategorie aus und starte mit einem Begriff. Wer etwas wiederholt oder keine Idee mehr hat, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Malt alle einen Pimmel auf ein Blatt. X entscheidet, welcher der schönste ist. Der Gewinner verteilt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Die erste Person, die etwas dreieckiges im Raum berührt, verteilt 3 Schlücke."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Die erste Person, die etwas gelbes im Raum berührt, verteilt 3 Schlücke."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X spiel das zuletzt gehörte Lied auf deinem Handy ab. Wenn die Mehrheit das Lied nicht mag, trinkst du 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X fülle deinen Mund mit Wasser (oder deinem alkoholischen Getränk) und singe ein Lied. Die Person die das Lied errät, verteilt 3 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X erzähle uns 2 Fakten und 1 Lüge über dich. Jeder Spieler rät nun, was davon die Lüge war. Wer falsch liegt, trinkt 2 Schlücke. Für jeden der den Spieler durchschaut, trinkt er 1 Schluck."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Flüsterpost! X beginnt. Kommt der Satz nicht korrekt einmal herum, trinken alle 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Theater! X spielt eine Filmszene nach. Wer den Film errät, darf 2 Schlücke verteilen."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Ich habe noch nie! X beginnt und dann einmal reihum. 2 Schlücke, wenn man etwas davon schon gemacht hat."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Nennt reihum eine Zahl zwischen 1 und 9 ...",
+            "2 Schlücke für alle mit einer geraden Zahl."
+        ],
+        "playersNeeded": 0,
+        "multiStep": true,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X nennen deinen Lieblingsmusiker oder Band. Reihum müssen die Spieler Songtitel nennen. Wem nichts mehr einfällt oder etwas doppelt nennt, trinkt 2 Schlücke,"
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Pantomime. X stelle einen Film nach. Wer diesen zuerst erkennt verteilt 2 Schlücke. Erkennt ihn keiner trinkst du selbst"
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Aufgepasst! Wer als letzter seinen linken(!) Daumen im Mund hat, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Sagt reihum was ihr an X toll findet. X beginnt. Wem nichts einfällt trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Einigt euch, wer die coolste Person am Tisch ist.",
+            "Coolio McCoolsen trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 0,
+        "multiStep": true,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Einigt euch, wer die betrunkenste Person am Tisch ist.",
+            "Entspann you und verteile 2 Schlücke."
+        ],
+        "playersNeeded": 0,
+        "multiStep": true,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
+    }
+]

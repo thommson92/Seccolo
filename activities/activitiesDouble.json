@@ -1,0 +1,165 @@
+[
+    {
+        "text": [
+            "Berufe-Pantomime: X stellt für 10 Sekunden einen Beruf pantomimisch dar, X muss diesen erraten. Scheitern sie, trinken beide 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X schlürft Sekt/Wein aus X Bauchnabel oder beide trinken 3 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X gib X 5€ oder trinke 5 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X und X. Spielt 3 Runden Schere-Stein-Papier! Der Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X gib X einen Kuss auf die Arschbacke oder trinkt beide 3 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X gib X einen Kuss auf die Wange oder trinkt beide 3 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X und X. Wer von euch ist größer? ...",
+            "Spielt keine Rolle, trinkt beide 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": true,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X summe für 30 Sekunden ein Lied, sodass X es errät. Bei Versagen trinken beide 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Tanzen auf Kommando: X leg einen Song auf. X muss 10 Sekunden improvisiert dazu tanzen oder beide trinken 4 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X zeige eine Anzahl an Fingern hinter deinem Rücken. Wenn X die Anzahl errät trinkst du 5 Schlücke, andernfalls trinkt er/sie 1 Schluck."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X und X. Würfelt gegeneinander. Der Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "Blickduell zwischen X und X. Wer zuerst lächelt oder wegschaut trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X mach X ein aufrichtiges Kompliment oder trinke 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X und X. Wer sein Glas zuerst leer getrunken hat darf 2 Schlücke verteilen. (Das Spiel kann in der Zwischenzeit weiter gehen)"
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X und X. Gebt euch die Hand, stoßt an und trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X gib X so viele Schlücke wie du magst."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X errate die Lieblingsfarbe von X mit 2 Versuchen oder trinke 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welche Augenfarbe hat X? Trinke 2 Schlücke wenn du falsch liegst, sonst verteile sie."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    }
+]

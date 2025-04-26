@@ -1,0 +1,112 @@
+[
+    {
+        "text": [
+            "Alle Spieler dürfen ab sofort nur noch mit dem Nachnamen angesprochen werden. Bei Verstoß 2 Schlücke.",
+            "Es darf sich wieder mit dem Vornamen angesprochen werden."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "X! Du sprichst ab sofort Englisch. Bei jedem Verstoß trinkst du einen Schluck.",
+            "Es muss nicht mehr Englisch gesprochen werden."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "Wer ab sofort X in die Augen schaut, trinkt 2 Schlücke.",
+            "Es darf wieder jedem in die Augen geschaut werden."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "Wer ab sofort mit X spricht, trinkt 2 Schlücke.",
+            "Es darf wieder mit jedem gesprochen werden."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "Die Wörter Wein, Bier und Sekt sind ab sofort verboten. Bei Verstoß 2 Schlücke.",
+            "Es darf wieder Wein, Bier und Sekt gesagt werden."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "X überlegt sich eine Trinkregel. Wer diese vergisst, trinkt die gleiche Anzahl an Schlücken nochmal.",
+            "Die Trinkregel muss nicht mehr eingehalten werden."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "Wer ab sofort ein Schimpfwort oder eine Beleidgung benutzt, trinkt 2 Schlücke.",
+            "Es darf sich wieder beleidigt werden."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "Alle Handys weg! Die erste Person, die auf ihr Handy schaut, trinkt 5 Schlücke. (Spielleiter ausgeschlossen)",
+            "Es darf wieder auf das Handy geschaut werden."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "X du bist ab sofort Bauchredner. Zieh eine Socke auf deine Hand und benutz sie, um zu sprechen. Für jedes Vergessen trinkst du einen Schluck.",
+            "Der Bauchredner darf wieder normal sprechen."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "X du flüsterst ab sofort. Für jedes Vergessen trinkst du einen Schluck.",
+            "Es muss nicht mehr geflüstert werden."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    },
+    {
+        "text": [
+            "X sag ab sofort nach jedem Satz 'Over'. Für jedes Vergessen trinkst du einen Schluck.",
+            "Es muss nicht mehr 'Over' gesagt werden."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
+    }
+]
