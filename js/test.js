@@ -226,7 +226,7 @@ activitiesJSON = [
     },
     {
         "text": [
-            "Alle die ein Kleidungsstück oder Accessouire einer anderen Person tragen, trinken 2 Schlücke."
+            "Alle die ein Kleidungsstück oder Accessoire einer anderen Person tragen, trinken 2 Schlücke."
         ],
         "playersNeeded": 0,
         "multiStep": false,
