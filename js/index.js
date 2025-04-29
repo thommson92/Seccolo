@@ -12,6 +12,12 @@ function prepareArray(tempAkt, dateiname) {
       activity.category = "categories";
       activity.endAfterRows = 0;
     });
+  } else if (dateiname.includes("vote")) {
+    tempAkt.forEach(activity => {
+      activity.playersNeeded = 0;
+      activity.category = "vote";
+      activity.endAfterRows = 0;
+    });
   }
   return tempAkt
 }

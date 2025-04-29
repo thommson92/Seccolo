@@ -3,220 +3,271 @@
         "text": [
             "Abstimmung! Pizza oder Pasta? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Urlaub in den Bergen oder am Strand. Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Lieber blind oder taub sein? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Überlebenskampf gegen einen Wolf oder ein Wildschwein? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Mehr Freizeit oder mehr Gehalt? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Nachwuchs steht an! Junge oder Mädchen? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Vodka Bull oder Jacky Cola? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Für immer flüstern oder für immer schreien? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Niemals duschen oder niemals Zähneputzen? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Eine Zombie-Apokalypse überleben oder im Mittelalter leben? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Jeden Tag einen neuen Job haben oder für immer denselben langweiligen Job machen? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Immer Muskelkater haben oder immer einen leichten Sonnenbrand haben? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Immer hungrig sein oder immer müde sein? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Nie wieder eine Waschmaschine oder eine Spülmaschine nutzen dürfen? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Gedanken lesen können, aber nicht abschalten können oder fliegen können? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Unter Wasser atmen können oder im Dunkeln sehen können? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Nur in die Vergangenheit reisen können oder nur in die Zukunft reisen können? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Wer ist die schönste Person? ...",
             "Jede/s Hässlon ohne Stimme trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": true,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": true
     },
     {
         "text": [
             "Abstimmung! Unbegrenzter Zugang zum Kino oder Essen bei McDonalds?",
             "Ronald McDonald trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": true,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": true
     },
     {
         "text": [
             "Abstimmung! Superman oder Spiderman",
             "Spidy trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": true,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": true
     },
     {
         "text": [
             "Abstimmung! Ein 10-fach besseres Gehör oder im Dunkeln sehen können? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Nike oder Adidas? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Lieber alle Sprachen der Welt oder mit Tieren sprechen können? Die Minderheit trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Lieber nie wieder Alkohol oder nie wieder Internet? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Ananas auf Pizza. Schmutz oder geile Kombination? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Lieber den Browserverlauf oder das Gehalt offenlegen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Lottogewinn: Einmalig 1 Million oder monatlich 10.000 €? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Pommes entweder nur mit Mayo oder nur mit Ketchup? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Kampf auf Leben und Tod gegen einen Bären oder einen Gorilla? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Als Schauspieler in einem Horrorfilm oder einem Actionfilm mitspielen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Jeden Tag nur noch das gleiche essen oder nie wieder dasselbe? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Lieber nur noch barfuß laufen oder immer mit Skischuhen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Lieber 10 Jahre in die Vergangenheit oder in die Zukunft reisen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Zähneputzen vor oder nach dem Frühstück? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Joko oder Klaas? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Würdest du lieber ständig frieren oder ständig schwitzen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Nie wieder feiern gehen oder nie wieder chillen dürfen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Würdest du lieber 10 Enten in Menschengröße bekämpfen oder 100 Menschen in Entengröße? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Nur noch rückwärts gehen können oder nur noch hüpfen dürfen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
+    },
+    {
+        "text": [
+            "Abstimmung! Nie wieder im Bett schlafen oder nie wieder auf der Couch sitzen? Die Minderheit trinkt 2 Schlücke."
+        ],
+        "multiStep": false
     },
     {
         "text": [
             "Abstimmung! Lieber 1 Jahr im Knast oder auf einer einsamen Insel?",
             "Robinson Crusoe trinkt 2 Schlücke."
         ],
-        "playersNeeded": 0,
-        "multiStep": true,
-        "category": "vote",
-        "endAfterRows": 0
+        "multiStep": true
+    },
+    {
+        "text": [
+            "Abstimmung! Wer ist die tollpatschigste Person?",
+            "Tollpatsch! Verschütte ein wenig deines Getränks und verteile 2 Schlücke."
+        ],
+        "multiStep": true
+    },
+    {
+        "text": [
+            "Abstimmung! Wer ist die eitelste Person?",
+            "Eitelpaket! Fahre dir einmal sexy durch die Haare und trinke 2 Schlücke."
+        ],
+        "multiStep": true
+    },
+    {
+        "text": [
+            "Abstimmung! Wer würde bei 'Wer wird Millionär' em ehesten gewinnen?",
+            "Dagobert! Spendiere einer anderen Person einen Drink."
+        ],
+        "multiStep": true
     }
 ]
