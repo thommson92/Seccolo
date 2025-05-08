@@ -108,5 +108,15 @@
         "multiStep": false,
         "category": "drinkRules",
         "endAfterRows": 5
+    },
+    {
+        "text": [
+            "Es darf nicht mehr gelächelt werden. Für jedes Lächeln trinkst du einen Schluck.",
+            "Es darf wieder gelächelt werden, muss aber nicht."
+        ],
+        "playersNeeded": 0,
+        "multiStep": false,
+        "category": "drinkRules",
+        "endAfterRows": 5
     }
 ]

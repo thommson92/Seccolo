@@ -1,335 +1,78 @@
 [
-    {
-        "text": [
-            "Alle trinken 2 Schlücke zur Auflockerung."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle Frauen trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle Männer trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle, deren Vor- oder Nachname mit F beginnt, trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle Singles trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle Fussballer trinken 2 Schlücke. (Egal ob aktiv oder nicht)"
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle Handballer trinken 2 Schlücke. (Egal ob aktiv oder nicht)"
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle Singles trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle in einer Beziehung trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle mit Neujahrsvorsätzen trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle ohne Neujahrsvorsätze trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle mit roter Unterwäsche trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle mit schwarzen Socken trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die eine Brille brauchen, trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die eine Spielekonsole besitzen, trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die ein Haustier haben, trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die schon mal mit einem/r Minderjährigen geschlafen haben, als sie schon Volljährig waren, trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Trinke 2 Schlücke wenn du meistens nackt schläfst."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Jeder trinkt so viele Schlücke wie er in der Schule Verweise gesammelt hat."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle, die in diesem Monat schon den öffentlichen Nahverkehr genutzt haben, verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle, die heute nicht geduscht haben, trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle, die es schaffen an ihrem großen Zeh zu lutschen, verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Trinkt so viel Schlücke, wie ihr Flüge dieses Jahr hattet."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die schon mal in Kryptowährungen investiert haben, trinken 3 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Wir denken einmal kurz an den morgigen Tag. Trinkt alle ein Glas Wasser oder auch nicht wenn ihr krass seid."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die ein Kleidungsstück oder Accessoire einer anderen Person tragen, trinken 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Trinkt so viele Schlücke, wie eure Schuhgröße über 40 ist. Verteilt für Schuhgrößen darunter."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die gerade Wein trinken verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die gerade Bier trinken verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die gerade einen Longdrink trinken verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die eine Brille tragen verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle mit weißer Unterwäsche verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die eine Fliege oder Krawatte tragen verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Alle die ein Kleid tragen verteilen 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Der Gastgeber verteilt 5 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Der/die Älteste verteilt 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "Der/die Jüngste verteilt 2 Schlücke."
-        ],
-        "playersNeeded": 0,
-        "multiStep": false,
-        "category": "allDrink",
-        "endAfterRows": 0
-    }
+    { "text": ["Alle trinken 2 Schlücke zur Auflockerung."] },
+    { "text": ["Alle Frauen trinken 2 Schlücke."] },
+    { "text": ["Alle Männer trinken 2 Schlücke."] },
+    { "text": ["Alle, deren Vor- oder Nachname mit F beginnt, trinken 2 Schlücke."] },
+    { "text": ["Alle Singles trinken 2 Schlücke."] },
+    { "text": ["Alle Fussballer trinken 2 Schlücke. (Egal ob aktiv oder nicht)"] },
+    { "text": ["Alle Handballer trinken 2 Schlücke. (Egal ob aktiv oder nicht)"] },
+    { "text": ["Alle in einer Beziehung trinken 2 Schlücke."] },
+    { "text": ["Alle mit Neujahrsvorsätzen trinken 2 Schlücke."] },
+    { "text": ["Alle ohne Neujahrsvorsätze trinken 2 Schlücke."] },
+    { "text": ["Alle mit roter Unterwäsche trinken 2 Schlücke."] },
+    { "text": ["Alle mit schwarzen Socken trinken 2 Schlücke."] },
+    { "text": ["Alle die eine Brille brauchen, trinken 2 Schlücke."] },
+    { "text": ["Alle die eine Spielekonsole besitzen, trinken 2 Schlücke."] },
+    { "text": ["Alle die ein Haustier haben, trinken 2 Schlücke."] },
+    { "text": ["Alle die schon mal mit einem/r Minderjährigen geschlafen haben, als sie schon Volljährig waren, trinken 2 Schlücke."] },
+    { "text": ["Trinke 2 Schlücke wenn du meistens nackt schläfst."] },
+    { "text": ["Jeder trinkt so viele Schlücke wie er in der Schule Verweise gesammelt hat."] },
+    { "text": ["Alle, die in diesem Monat schon den öffentlichen Nahverkehr genutzt haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die heute nicht geduscht haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die es schaffen an ihrem großen Zeh zu lutschen, verteilen 2 Schlücke."] },
+    { "text": ["Trinkt so viel Schlücke, wie ihr Flüge dieses Jahr hattet."] },
+    { "text": ["Alle die schon mal in Kryptowährungen investiert haben, trinken 3 Schlücke."] },
+    { "text": ["Wir denken einmal kurz an den morgigen Tag. Trinkt alle ein Glas Wasser oder auch nicht wenn ihr krass seid."] },
+    { "text": ["Alle die ein Kleidungsstück oder Accessoire einer anderen Person tragen, trinken 2 Schlücke."] },
+    { "text": ["Trinkt so viele Schlücke, wie eure Schuhgröße über 40 ist. Verteilt für Schuhgrößen darunter."] },
+    { "text": ["Alle die gerade Wein trinken verteilen 2 Schlücke."] },
+    { "text": ["Alle die gerade Bier trinken verteilen 2 Schlücke."] },
+    { "text": ["Alle die gerade einen Longdrink trinken verteilen 2 Schlücke."] },
+    { "text": ["Alle die eine Brille tragen verteilen 2 Schlücke."] },
+    { "text": ["Alle mit weißer Unterwäsche verteilen 2 Schlücke."] },
+    { "text": ["Alle die eine Fliege oder Krawatte tragen verteilen 2 Schlücke."] },
+    { "text": ["Alle die ein Kleid tragen verteilen 2 Schlücke."] },
+    { "text": ["Der Gastgeber verteilt 3 Schlücke."] },
+    { "text": ["Der/die Älteste verteilt 2 Schlücke."] },
+    { "text": ["Der/die Jüngste verteilt 2 Schlücke."] },
+    { "text": ["Alle mit einem zweiten Vornamen trinken zwei Schlücke."] },
+    { "text": ["Wer schon mal ein Selfie mit einem Promi gemacht hat, trinkt 2 Schlücke."] },
+    { "text": ["Alle, die schon mal mehr als 10 km gejoggt sind, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal in einem anderen Land gewohnt haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die eine fremde Sprache (außer Englisch) sprechen, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die eine Reise nach Asien gemacht haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal auf einem Konzert waren, trinken 2 Schlücke."] },
+    { "text": ["Alle, die heute noch nichts gegessen haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die einen VW fahren, trinken 2 Schlücke."] },
+    { "text": ["Alle, die ein Tattoo haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die vegan oder vegetarisch leben, trinken 2 Schlücke."] },
+    { "text": ["Alle Pechvögel, die schon mal ihr Smartphone verloren haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die in den letzten 7 Tagen Sport gemacht haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die in den letzten 24 Stunden mindestens 1 Foto gemacht haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal ein Instrument gespielt haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die in den letzten 12 Monaten umgezogen sind, trinken 2 Schlücke."] },
+    { "text": ["Alle, die keinen Führerschein oder ihren schon mal abgeben mussten, trinken 2 Schlücke."] },
+    { "text": ["Alle, die eine Horrorfilm-Angst haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die noch nie einen Pokal gewonnen haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal einen Berg über 3.000 m bestiegen haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die schon mal ein Online-Dating-Profil hatten, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal ein Zipline-Abenteuer gemacht haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die kein Fahrrad besitzen, trinken 2 Schlücke."] },
+    { "text": ["Alle, die noch nie in einem Freizeitpark waren, trinken 2 Schlücke."] },
+    { "text": ["Alle, die in den letzten 30 Tagen ein neues Paar Schuhe gekauft haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die noch nie einen Kuchen selbst gebacken haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal geklaut haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal eine mehrtägige Radtour gemacht haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die schon mal eine spontane Reise ins Ausland gemacht haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die innerhalb des letzten Jahres mal in einem Zelt übernachtet haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die schon mal einen (Halb-) Marathon gelaufen sind, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die einen besonderen Spitznamen haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal auf einer Kreuzfahrt waren, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal auf einem Festival waren, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal an einem Kochkurs teilgenommen haben, verteilen 2 Schlücke."] },
+    { "text": ["Alle, die schon mal an einem Tanzkurs teilgenommen haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal eine Sprache gelernt haben, die niemand in der Runde spricht, trinken 2 Schlücke."] },
+    { "text": ["Alle, die im letzten Monat einen Urlaub gemacht haben, trinken 2 Schlücke."] },
+    { "text": ["Alle, die schon mal ein Konzert von ihrer Lieblingsband besucht haben, trinken 2 Schlücke."] },
+    { "text": ["Alle mit einem Golf-Handicap kleiner 54 trinken 2 Schlücke."] }
 ]

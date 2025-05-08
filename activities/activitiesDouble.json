@@ -161,5 +161,41 @@
         "multiStep": false,
         "category": "doublePlayerActivity",
         "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X und X! Schätzt die Uhrzeit! Wer näher dran ist, verteilt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X steckt X etwas in den Mund! Wird es korrekt erraten, verteilen beide 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X schreibt X mit dem Finger ein Wort auf den Rücken! Wird es korrekt erraten, verteilen beide 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X und X! Gebt euch ein High-Five mit den Füßen oder trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 2,
+        "multiStep": false,
+        "category": "doublePlayerActivity",
+        "endAfterRows": 0
     }
 ]

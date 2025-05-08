@@ -18,6 +18,21 @@ function prepareArray(tempAkt, dateiname) {
       activity.category = "vote";
       activity.endAfterRows = 0;
     });
+  } else if (dateiname.includes("allDrink")) {
+    tempAkt.forEach(activity => {
+      activity.playersNeeded = 0;
+      activity.category = "allDrink";
+      activity.endAfterRows = 0;
+      activity.multiStep = false;
+    });
+  }
+  else if (dateiname.includes("activitySingle")) {
+    tempAkt.forEach(activity => {
+      activity.playersNeeded = 1;
+      activity.category = "singlePlayerActivity";
+      activity.endAfterRows = 0;
+      activity.multiStep = false;
+    });
   }
   return tempAkt
 }

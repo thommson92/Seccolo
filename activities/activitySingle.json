@@ -1,120 +1,36 @@
 [
-    {
-        "text": [
-            "Kopfrechnen! X hat 5 Sekunden. Wie viel ist 12*17 ...",
-            "Lösung: 204. Liegt X richtig, dürfen 2 Schlücke verteilt werden, andernfalls selbst getrunken werden."
-        ],
-        "playersNeeded": 1,
-        "multiStep": true,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X erzähle einen Witz. Lacht oder schmunzelt niemand trinkst du 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X macht einen Purtzelbaum vorwärts oder trinkt 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X macht einen Purtzelbaum rückwärts oder trinkt 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X macht 3 Sekunden einen Handstand oder trinkt 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X macht ein Rad oder trinkt 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X macht einen Trick oder trinkt 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X du hast 60 Sekunden um das Alphabet rückwärts aufzusagen. Trinke 2 Schlücke wenn du scheiterst."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X darf 60 Sekunden nicht lächeln sonst trinkt er/sie 3 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X zeig uns 5 Liegestützen oder trinke 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X nenne uns etwas, das du magst. Alle Spieler, die das nicht mögen, trinken 3 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X imitiere 5 Sekunden eine Schlange oder trinke 5 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
-            "X imitiere 5 Sekunden einen Frosch oder trinke 5 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "singlePlayerActivity",
-        "endAfterRows": 0
-    }
+    { "text": ["X erzähle einen Witz. Lacht oder schmunzelt niemand trinkst du 2 Schlücke."] },
+    { "text": ["X macht einen Purtzelbaum vorwärts oder trinkt 2 Schlücke."] },
+    { "text": ["X macht einen Purtzelbaum rückwärts oder trinkt 2 Schlücke."] },
+    { "text": ["X macht 3 Sekunden einen Handstand oder trinkt 2 Schlücke."] },
+    { "text": ["X macht ein Rad oder trinkt 2 Schlücke."] },
+    { "text": ["X macht einen Trick oder trinkt 2 Schlücke."] },
+    { "text": ["X du hast 60 Sekunden um das Alphabet rückwärts aufzusagen. Trinke 2 Schlücke wenn du scheiterst."] },
+    { "text": ["X zeig uns 5 Liegestützen oder trinke 2 Schlücke."] },
+    { "text": ["X nenne uns etwas, das du magst. Alle Spieler, die das nicht mögen, trinken 3 Schlücke."] },
+    { "text": ["X imitiere 5 Sekunden eine Schlange oder trinke 5 Schlücke."] },
+    { "text": ["X imitiere 5 Sekunden einen Frosch oder trinke 3 Schlücke."] },  
+    { "text": ["X tanze 10 Sekunden wie ein Roboter oder trinke 2 Schlücke."] },
+    { "text": ["X sage deinen Namen rückwärts korrekt auf den ersten Versuch oder trinke 2 Schlücke."] },
+    { "text": ["X erzähle eine peinliche Geschichte oder trinke 2 Schlücke."] },
+    { "text": ["X stelle einen Film pantomimisch dar. Wer ihn zuerst errät, verteilt 2 Schlücke."] },
+    { "text": ["X stelle ein Lied pantomimisch dar. Wer es zuerst errät, verteilt 2 Schlücke."] },
+    { "text": ["X singe ein Kinderlied oder trinke 2 Schlücke."] },
+    { "text": ["X balanciere etwas auf deinem Kopf für 10 Sekunden oder trinke 2 Schlücke."] },
+    { "text": ["X schrei laut deinen Namen oder trinke 2 Schlücke."] },
+    { "text": ["X versuche jemand anderen im Raum perfekt zu imitieren oder trinke 2 Schlücke."] },
+    { "text": ["X ahme eine Eigenheit eines Mitspielers nach. Wer denkt er ist gemeint, trinkt 1 Schluck. Anschließend trinkt jeder der falsch lag 3 Schlücke."] },
+    { "text": ["X erzähle einen Zungenbrecher dreimal schnell hintereinander oder trinke 2 Schlücke."] },
+    { "text": ["X tanze wie ein Huhn oder trinke 2 Schlücke."] },
+    { "text": ["X halte eine 10-Sekunden-Rede über ein zufälliges Thema oder trinke 2 Schlücke."] },
+    { "text": ["X tausche den Platz mit jemandem oder trinke 2 Schlücke."] },
+    { "text": ["X schließe deine Augen und beschreibe, was jemand gerade anhat. Triffst du nicht, trinke 2 Schlücke."] },
+    { "text": ["X gib einer beliebigen Person ein spontanes Kompliment oder trinke 1 Schluck."] } ,
+    { "text": ["X stelle dich auf ein Bein, schließ die Augen und zähle bis 15 oder trinke 2 Schlücke."] },
+    { "text": ["X mache 5 Hampelmänner oder trinke 2 Schlücke."] },
+    { "text": ["X buchstabiere das Wort 'Schnapsidee' rückwärts oder trinke 2 Schlücke."] },
+    { "text": ["X erzähle der Gruppe deinen ersten Kuss oder trinke 2 Schlücke."] },
+    { "text": ["X halte 30 Sekunden lang die Luft an oder trinke 2 Schlücke."] },
+    { "text": ["X gehe in Zeitlupe um alle Spieler herum oder trinke 2 Schlücke."] },
+    { "text": ["X denke dir einen neuen Spitznamen für dich aus. Nennst du dich nicht so bis zum nächsten Zug, trinke 2 Schlücke."] }
 ]

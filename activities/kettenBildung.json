@@ -1,0 +1,9 @@
+{
+    "text": [
+        "Kategorie Tiere! Sagt reihum ein Tier mit dem Endbuchstaben des vorherigen Tieres als Anfangsbuchstaben. Wer scheitert, trinkt 2 Schkücke."
+    ],
+    "playersNeeded": 0,
+    "multiStep": false,
+    "category": "kettenBildung",
+    "endAfterRows": 0
+},
