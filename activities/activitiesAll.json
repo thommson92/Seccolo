@@ -74,15 +74,6 @@
     },
     {
         "text": [
-            "X denke dir eine Kategorie aus und starte mit einem Begriff. Wer etwas wiederholt oder keine Idee mehr hat, trinkt 2 Schlücke."
-        ],
-        "playersNeeded": 1,
-        "multiStep": false,
-        "category": "allPlayerActivity",
-        "endAfterRows": 0
-    },
-    {
-        "text": [
             "Malt alle einen Pimmel auf ein Blatt. X entscheidet, welcher der schönste ist. Der Gewinner verteilt 2 Schlücke."
         ],
         "playersNeeded": 1,
