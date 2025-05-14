@@ -10,7 +10,7 @@
     },
     {
         "text": [
-            "X! Exe das Glas eines beliebigen Mitspielers."
+            "X! Leere das Glas eines beliebigen Mitspielers."
         ],
         "playersNeeded": 1,
         "multiStep": false,
@@ -82,7 +82,7 @@
     },
     {
         "text": [
-            "X! Verteile so viele Schlücke, wie du Geschwister hast. Falls du ein Einzelkind bist, exe dein Glas."
+            "X! Verteile so viele Schlücke, wie du Geschwister hast. Falls du ein Einzelkind bist, leere dein Glas."
         ],
         "playersNeeded": 1,
         "multiStep": false,
@@ -109,7 +109,7 @@
     },
     {
         "text": [
-            "Hey X, sexy Outfit! Verteile 2 Schlücke."
+            "Hey X, geiles Outfit! Verteile 2 Schlücke."
         ],
         "playersNeeded": 1,
         "multiStep": false,

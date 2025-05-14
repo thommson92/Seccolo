@@ -218,5 +218,15 @@
         "multiStep": true,
         "category": "allPlayerActivity",
         "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X beginnt. Wählt reihum euer Starterpokemon. Schiggy, Glumanda oder Bisasam? ...",
+            "Glumanda bekommt eine doppelte Aquaknarre in den Mund. Bisasam verteilt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0
     }
 ]
