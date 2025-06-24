@@ -23,7 +23,7 @@
         ],
         "playersNeeded": 1,
         "multiStep": false,
-        "category": "single",
+        "category": "single" ,
         "endAfterRows": 0
     },
     {
