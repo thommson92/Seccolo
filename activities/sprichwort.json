@@ -1,0 +1,622 @@
+[
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Mühsam ernährt sich ...",
+            "Lösung: Mühsam ernährt sich das Eichhörnchen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Das ... in die Hand nehmen.",
+            "Lösung: Das Heft in die Hand nehmen.. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... mit Köpfen machen.",
+            "Lösung: Nägel mit Köpfen machen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Wer zuerst kommt, ...",
+            "Lösung: Wer zuerst kommt, malt zuerst. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... ist silber, ... ist gold",
+            "Lösung: Reden ist silber, Schweigen ist gold. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... kommt vor dem Fall.",
+            "Lösung: Hochmut kommt vor dem Fall. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Wer Wind säht, ...",
+            "Lösung: Wer Wind säht, wird Sturm ernten. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Der ... fängt den Wurm.",
+            "Lösung: Der frühe Vogel fängt den Wurm. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... hat Gold im Mund.",
+            "Lösung: Morgenstund hat Gold im Mund.. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Lügen haben ...",
+            "Lösung: Lügen haben kurze Beine. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... bei den Hörnern packen.",
+            "Lösung: Den Stier bei den Hörnern packen.. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Auf einem ... lernt man das ...",
+            "Lösung: Auf einem alten Pferd lernt man das Resiten. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... Eierkuchen.",
+            "Lösung: Friede, Freue, Eierkuchen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Das ... am Wagen sein.",
+            "Lösung: Das fünfte Rad am Wagen sein. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Da fällt es einem wie ....",
+            "Lösung: Da fällt es einem wie Schuppen von den Augen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Jetzt wird es hinten ...",
+            "Lösung: Jetzt wird es hinten höher wie vorne. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Den Kopf in ...",
+            "Lösung: Den Kopf in den Sand stecken. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Da wird ja der ... in der ...  verrückt",
+            "Lösung: Da wird ja der Hund in der Pfanne verrückt. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Da liegt der ... im Pfeffer.",
+            "Lösung: Da liegt der Hase im Pfeffer. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... macht auch Mist.",
+            "Lösung: Kleinvieh macht auch Mist. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Lieber den ... in der Hand als die ... auf dem ...",
+            "Lösung: Lieber den Spatz in der Hand als die Taube auf dem Dach. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Auch ein ... findet mal ein Korn.",
+            "Lösung: Auch ein blindes Huhn findet mal ein Korn. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Es ist noch kein ... vom Himmel gefallen.",
+            "Lösung: Es ist noch kein Meister vom Himmel gefallen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... will Weile haben.",
+            "Lösung: Gut Ding will Weile haben. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Wer rastet, ...",
+            "Lösung: Wer rastet, der rostet. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Wo gehobelt wird, ...",
+            "Lösung: Wo gehobelt wird, da fallen Späne. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Der ... steckt im Detail.",
+            "Lösung: Der Teufel steckt im Detail. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... schützt vor Torheit nicht.",
+            "Lösung: Alter schützt vor Torheit nicht.. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Der ... stinkt vom Kopfe her.",
+            "Lösung: Der Fisch stinkt vom Kopfe her. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Eine Schwalbe macht noch keinen ...",
+            "Lösung: Eine Schwalbe macht noch keinen Sommer. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Einem ... schaut man nicht ins Maul.",
+            "Lösung: Einem geschenkten Gaul schaut man nicht ins Maul. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Ein ... kommt selten alleine.",
+            "Lösung: Ein Unglück kommt selten allein. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Es wird nichts so ..., wie es gekocht wird.",
+            "Lösung: Es wird nicht so heiß gegessen, wie es gekocht wird. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... macht Diebe.",
+            "Lösung: Gelegenheit macht Diebe. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Ich glaub mein ... pfeift.",
+            "Lösung: Ich glaub mein Schwein pfeift. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. In der Not frisst der ...",
+            "Lösung: In der Not frisst der Teufel Fliegen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Ist die Katze aus dem Haus, ...",
+            "Lösung: Ist die Katze aus dem Haus, tanzen die Mäuse auf den Tischen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... wurde nicht an einem Tag ...",
+            "Lösung: Rom wurde nicht an einem Tag erbaut. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Schuster, bleib bei deinen ...",
+            "Lösung: Schuster, bleib bei deinen Leisten. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Steter Tropfen ...",
+            "Lösung: Steter Tropfen höhlt den Stein. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Viele ... verderben den ...",
+            "Lösung: Viele Köche verderben den Brei. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Was Hänschen nicht lernt, ...",
+            "Lösung: Was Hänschen nicht lernt, lernt Hans nimmer mehr. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Wer im ... sitzt, sollte nicht ...",
+            "Lösung: Wer im Glashaus sitzt, sollte nicht mit Steinen werfen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Mir egal, das ist doch ... wie ...",
+            "Lösung: Mir egal, das ist doch Jacke wie Hose. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Da waren die ... wohl größer als der ...",
+            "Lösung: Da waren die Augen wohl größer als der Magen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Ich ... dich aus wie eine ...",
+            "Lösung: Ich nehme dich aus wie eine Weihnachtsgans. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Das macht den ... auch nicht mehr fett.",
+            "Lösung: Das macht den Kohl/Braten auch nicht mehr fett. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Mit euch ist nicht gut ...",
+            "Lösung: Mit euch ist nicht gut Kirschen essen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Da lasse ich mir nicht die .. vom ... nehmen.",
+            "Lösung: Da lasse ich mir nicht die Butter vom Brot nehmen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Der ... im Schafspelz.",
+            "Lösung: Der Wolf im Schafspelz. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Seine ... ins Trockene bringen.",
+            "Lösung: Seine Schäfchen ins Trockene bringen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Dem ... Zucker geben.",
+            "Lösung: Dem Affen zucker geben. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. ... auf mein Haupt.",
+            "Lösung: Asche auf mein Haupt. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Jemandem einen ... ans Ohr quatschen.",
+            "Lösung: Jemandem einen Blumenkohl ans Ohr quatschen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Das ist mir ein ... mit sieben ...",
+            "Lösung: Das ist mir ein Buch mit sieben Siegeln. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Dem ... Zucker geben.",
+            "Lösung: Dem Affen zucker geben. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Jetzt mal ... bei die ...",
+            "Lösung: Jetzt mal Butter bei die Fische. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Der ... ist noch nicht gelutscht.",
+            "Lösung: Der Drops ist noch nicht gelutscht.. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Hinten ... die ...",
+            "Lösung: Hinten kackt die Ente. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Die ... ins Korn werfen",
+            "Lösung: Die Flinte ins Korn werfen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Da können wir jetzt auch mal ... gerade sein lassen",
+            "Lösung: Da können wir jetzt auch mal 5 gerade sein lassen. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X vervollständige das folgende Sprichwort. Es ist zum (Tier) (Verb).",
+            "Lösung: Es ist zum Mäuse melken. Lagst du richtig, verteile 2 Schlücke, sonst trinke sie selbst."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "sprichwort",
+        "endAfterRows": 0
+    }
+]

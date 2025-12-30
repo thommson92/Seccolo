@@ -1,0 +1,191 @@
+[
+    {
+        "text": [
+            "X welche Nudelsorte setzt du auf die 1? Wer dieser Sorte nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Kartoffelgericht setzt du auf die 1? Wer diesem Gericht nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Gericht würdest du wählen, wenn du dein Leben lang nur noch dieses essen dürftest? Wer diesem Gericht nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Erfrischungsgetränk setzt du auf die 1? Wer diesem Getränk nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Tier setzt du auf die 1? Wer diesem Tier nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welche Sportart im Fernsehen setzt du auf die 1? Wer dieser Sportart nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Anti-Kater-Mittel/Aktivität setzt du auf die 1? Wer diesem Mittel nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X was wäre deine Henkersmahlzeit? Wer diesem Gericht nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Urlaubsland setzt du auf die 1? Wer diesem Land nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Fleischgericht setzt du auf die 1? Wer diesem Gericht nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welchen Longdrink oder Cocktail setzt du auf die 1? Wer diesem Getränk nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Gemüse setzt du auf die 1? Wer diesem Gemüse nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welchen Film setzt du auf die 1? Wer diesem Film nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Süßigkeit setzt du auf die 1? Wer dieser Süßigkeit nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welche Pflanze, Blume oder Baum setzt du auf die 1? Wer diesem Grünzeug nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welche Sauce setzt du auf die 1? Wer dieser Sauce nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Haushaltsgerät setzt du auf die 1? Wer diesem Gerät nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welche Serie setzt du auf die 1? Wer dieser Serie nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welches Eiergericht setzt du auf die 1? Wer diesem Gericht nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welche Mehlspeise setzt du auf die 1? Wer dieser Speise nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    },
+    {
+        "text": [
+            "X welchen Harry Potter Charakter setzt du auf die 1? Wer diesem Charakter nicht mit gutem Gewissen zustimmen kann, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "aufdieEins",
+        "endAfterRows": 0
+    }
+]
