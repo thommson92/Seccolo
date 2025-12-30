@@ -205,6 +205,6 @@ document.getElementById('backButton').addEventListener('click', function(event) 
     event.preventDefault();
     const confirmBack = confirm("Möchtest du wirklich zum Start zurückkehren? Das Spiel wird beendet.");
     if (confirmBack) {
-        window.location.href = "index.html";
+        window.location.href = "../index.html";
     }
 });
