@@ -6,7 +6,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins0"
     },
     {
         "text": [
@@ -15,7 +16,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins1"
     },
     {
         "text": [
@@ -24,7 +26,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins2"
     },
     {
         "text": [
@@ -33,7 +36,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins3"
     },
     {
         "text": [
@@ -42,7 +46,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins4"
     },
     {
         "text": [
@@ -51,7 +56,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins5"
     },
     {
         "text": [
@@ -60,7 +66,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins6"
     },
     {
         "text": [
@@ -69,7 +76,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins7"
     },
     {
         "text": [
@@ -78,7 +86,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins8"
     },
     {
         "text": [
@@ -87,7 +96,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins9"
     },
     {
         "text": [
@@ -96,7 +106,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins10"
     },
     {
         "text": [
@@ -105,7 +116,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins11"
     },
     {
         "text": [
@@ -114,7 +126,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins12"
     },
     {
         "text": [
@@ -123,7 +136,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins13"
     },
     {
         "text": [
@@ -132,7 +146,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins14"
     },
     {
         "text": [
@@ -141,7 +156,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins15"
     },
     {
         "text": [
@@ -150,7 +166,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins16"
     },
     {
         "text": [
@@ -159,7 +176,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins17"
     },
     {
         "text": [
@@ -168,7 +186,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins18"
     },
     {
         "text": [
@@ -177,7 +196,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins19"
     },
     {
         "text": [
@@ -186,6 +206,7 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "aufdieEins",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "aufDieEins20"
     }
 ]

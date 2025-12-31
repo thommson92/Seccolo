@@ -6,7 +6,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer0"
     },
     {
         "text": [
@@ -15,7 +16,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer1"
     },
     {
         "text": [
@@ -24,7 +26,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer2"
     },
     {
         "text": [
@@ -33,7 +36,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer3"
     },
     {
         "text": [
@@ -42,6 +46,107 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer4"
+    },
+    {
+        "text": [
+            "X beginnt mit einem Geräusch. Reihum muss dieses Geräusch wiederholt werden und ein weiteres ergänzt werden. Wer den ersten Fehler macht, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer5"
+    },
+    {
+        "text": [
+            "X beginnt ein Tier nachzumachen. Reihum muss dieses Tier wiederholt werden und ein weiteres ergänzt werden. Wer den ersten Fehler macht, trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer6"
+    },
+    {
+        "text": [
+            "Ich packe meine Bauchtasche und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer7"
+    },
+    {
+        "text": [
+            "Ich packe meine Strandtasche und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer8"
+    },
+    {
+        "text": [
+            "Ich packe meinen Wanderrucksack und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer9"
+    },
+    {
+        "text": [
+            "Ich packe meinen Schulranzen und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer10"
+    },
+    {
+        "text": [
+            "Ich packe meinen Picknickkorb und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer11"
+    },
+    {
+        "text": [
+            "Ich packe meinen Werkzeugkoffer und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer12"
+    },
+    {
+        "text": [
+            "Ich packe meine Zeitmaschine und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer13"
+    },
+    {
+        "text": [
+            "Ich packe meinen Heißluftballon und nehme mit ... X beginnt. Verlierer trinkt 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": false,
+        "category": "koffer",
+        "endAfterRows": 0,
+        "id": "koffer14"
     }
 ]

@@ -6,7 +6,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble0"
     },
     {
         "text": [
@@ -15,7 +16,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble1"
     },
     {
         "text": [
@@ -24,7 +26,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble2"
     },
     {
         "text": [
@@ -33,7 +36,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble3"
     },
     {
         "text": [
@@ -42,7 +46,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble4"
     },
     {
         "text": [
@@ -51,7 +56,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble5"
     },
     {
         "text": [
@@ -61,7 +67,8 @@
         "playersNeeded": 2,
         "multiStep": true,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble6"
     },
     {
         "text": [
@@ -70,7 +77,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble7"
     },
     {
         "text": [
@@ -79,7 +87,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble8"
     },
     {
         "text": [
@@ -88,7 +97,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble9"
     },
     {
         "text": [
@@ -97,7 +107,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble10"
     },
     {
         "text": [
@@ -106,7 +117,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble11"
     },
     {
         "text": [
@@ -115,7 +127,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble12"
     },
     {
         "text": [
@@ -124,7 +137,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble13"
     },
     {
         "text": [
@@ -133,7 +147,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble14"
     },
     {
         "text": [
@@ -142,7 +157,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble15"
     },
     {
         "text": [
@@ -151,7 +167,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble16"
     },
     {
         "text": [
@@ -160,7 +177,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble17"
     },
     {
         "text": [
@@ -169,7 +187,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble18"
     },
     {
         "text": [
@@ -178,7 +197,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble19"
     },
     {
         "text": [
@@ -187,7 +207,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble20"
     },
     {
         "text": [
@@ -196,6 +217,7 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "doublePlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesDouble21"
     }
 ]

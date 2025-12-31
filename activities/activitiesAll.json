@@ -2,12 +2,13 @@
     {
         "text": [
             "Jeder Spieler nennt einen deutschen Bundeskanzler (Doppelnennungen erlaub) ...",
-            "Olaf Scholz trinkt 2 Schlücke, Konrad Adenauer verteilt 2 Schlücke."
+            "Merz & Scholz trinken 2 Schlücke, Merkel & Adenauer verteilen 2 Schlücke."
         ],
         "playersNeeded": 2,
         "multiStep": true,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll0"
     },
     {
         "text": [
@@ -16,7 +17,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll1"
     },
     {
         "text": [
@@ -25,7 +27,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll2"
     },
     {
         "text": [
@@ -34,7 +37,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll3"
     },
     {
         "text": [
@@ -43,7 +47,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll4"
     },
     {
         "text": [
@@ -52,7 +57,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll5"
     },
     {
         "text": [
@@ -61,7 +67,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll6"
     },
     {
         "text": [
@@ -70,7 +77,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll7"
     },
     {
         "text": [
@@ -79,7 +87,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll8"
     },
     {
         "text": [
@@ -88,7 +97,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll9"
     },
     {
         "text": [
@@ -97,7 +107,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll10"
     },
     {
         "text": [
@@ -106,7 +117,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll11"
     },
     {
         "text": [
@@ -115,7 +127,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll12"
     },
     {
         "text": [
@@ -124,7 +137,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll13"
     },
     {
         "text": [
@@ -133,7 +147,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll14"
     },
     {
         "text": [
@@ -142,7 +157,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll15"
     },
     {
         "text": [
@@ -151,7 +167,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll16"
     },
     {
         "text": [
@@ -161,7 +178,8 @@
         "playersNeeded": 0,
         "multiStep": true,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll17"
     },
     {
         "text": [
@@ -170,7 +188,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll18"
     },
     {
         "text": [
@@ -179,7 +198,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll19"
     },
     {
         "text": [
@@ -188,7 +208,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll20"
     },
     {
         "text": [
@@ -197,7 +218,8 @@
         "playersNeeded": 2,
         "multiStep": false,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll21"
     },
     {
         "text": [
@@ -207,7 +229,8 @@
         "playersNeeded": 0,
         "multiStep": true,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll22"
     },
     {
         "text": [
@@ -217,7 +240,8 @@
         "playersNeeded": 0,
         "multiStep": true,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll23"
     },
     {
         "text": [
@@ -227,6 +251,18 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "allPlayerActivity",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "activitiesAll24"
+    },
+    {
+        "text": [
+            "X beginnt. Wählt reihum euer Haus in Harry Potter. Gryffindor, Hufflepuff, Ravenclaw oder Slytherin? ...",
+            "Gryffindors trinken mutige 2 Schlücke. Slytherins verteilen hinterhältige 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0,
+        "id": "activitiesAll25"
     }
 ]
