@@ -6,7 +6,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer0"
     },
     {
         "text": [
@@ -15,7 +16,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer1"
     },
     {
         "text": [
@@ -24,7 +26,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer2"
     },
     {
         "text": [
@@ -33,7 +36,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer3"
     },
     {
         "text": [
@@ -42,6 +46,7 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "koffer",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "koffer4"
     }
 ]

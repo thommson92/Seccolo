@@ -6,7 +6,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single0"
     },
     {
         "text": [
@@ -15,7 +16,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single1"
     },
     {
         "text": [
@@ -23,8 +25,9 @@
         ],
         "playersNeeded": 1,
         "multiStep": false,
-        "category": "single" ,
-        "endAfterRows": 0
+        "category": "single",
+        "endAfterRows": 0,
+        "id": "single2"
     },
     {
         "text": [
@@ -33,7 +36,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single3"
     },
     {
         "text": [
@@ -42,7 +46,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single4"
     },
     {
         "text": [
@@ -51,7 +56,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single5"
     },
     {
         "text": [
@@ -60,7 +66,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single6"
     },
     {
         "text": [
@@ -69,7 +76,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single7"
     },
     {
         "text": [
@@ -78,7 +86,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single8"
     },
     {
         "text": [
@@ -87,7 +96,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single9"
     },
     {
         "text": [
@@ -96,7 +106,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single10"
     },
     {
         "text": [
@@ -105,7 +116,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single11"
     },
     {
         "text": [
@@ -114,7 +126,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single12"
     },
     {
         "text": [
@@ -123,7 +136,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single13"
     },
     {
         "text": [
@@ -133,7 +147,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single14"
     },
     {
         "text": [
@@ -143,6 +158,7 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "single",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "single15"
     }
 ]

@@ -4,7 +4,10 @@ const players = [];
 urlParams.forEach((value, key) => {
     if (key.startsWith('player')) players.push(value);
 });
+const playedActivityIdsParam = urlParams.get('activityIds');
+const playedActivityIds = playedActivityIdsParam ? playedActivityIdsParam.split(',') : [];
 
+// Falls keine Spieler verfügbar, breche sofort ab
 if (players.length === 0) {
     document.body.innerHTML = '<div class="alert alert-danger">Keine Spieler übergeben!</div>';
     throw new Error('Keine Spieler übergeben');
@@ -12,6 +15,9 @@ if (players.length === 0) {
 
 // Set an Aktivitäten mit "X" als Platzhalter für Spielernamen
 let activities = JSON.parse(sessionStorage.getItem('activities'))
+activities = activities.filter(
+    activity => !playedActivityIds.includes(activity.id)
+);
 
 // Funktion, um Spieler zufällig auszuwählen
 function getRandomPlayers(count) {
@@ -172,7 +178,10 @@ function showNextActivity() {
         activityContainer.innerHTML = '<h3>Das Spiel ist vorbei! Prost!</h3>';
         nextButton.textContent = "Neues Spiel starten";
         nextButton.addEventListener('click', () => {
-            window.location.href = `game.html?${players.map((player, index) => `player${index}=${player}`).join('&')}`;
+            const playerParams = players.map((player, index) => `player${index}=${encodeURIComponent(player)}`).join('&');
+            const activityIds = shuffledActivities.map(activity => activity.id).join(',');
+            const activityParam = `activityIds=${encodeURIComponent(activityIds)}`;
+            window.location.href = `game.html?${playerParams}&${activityParam}`;
         });
         return;
     }

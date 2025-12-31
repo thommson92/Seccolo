@@ -7,7 +7,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort0"
     },
     {
         "text": [
@@ -17,7 +18,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort1"
     },
     {
         "text": [
@@ -27,7 +29,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort2"
     },
     {
         "text": [
@@ -37,7 +40,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort3"
     },
     {
         "text": [
@@ -47,7 +51,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort4"
     },
     {
         "text": [
@@ -57,7 +62,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort5"
     },
     {
         "text": [
@@ -67,7 +73,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort6"
     },
     {
         "text": [
@@ -77,7 +84,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort7"
     },
     {
         "text": [
@@ -87,7 +95,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort8"
     },
     {
         "text": [
@@ -97,7 +106,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort9"
     },
     {
         "text": [
@@ -107,7 +117,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort10"
     },
     {
         "text": [
@@ -117,7 +128,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort11"
     },
     {
         "text": [
@@ -127,7 +139,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort12"
     },
     {
         "text": [
@@ -137,7 +150,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort13"
     },
     {
         "text": [
@@ -147,7 +161,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort14"
     },
     {
         "text": [
@@ -157,7 +172,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort15"
     },
     {
         "text": [
@@ -167,7 +183,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort16"
     },
     {
         "text": [
@@ -177,7 +194,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort17"
     },
     {
         "text": [
@@ -187,7 +205,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort18"
     },
     {
         "text": [
@@ -197,7 +216,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort19"
     },
     {
         "text": [
@@ -207,7 +227,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort20"
     },
     {
         "text": [
@@ -217,7 +238,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort21"
     },
     {
         "text": [
@@ -227,7 +249,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort22"
     },
     {
         "text": [
@@ -237,7 +260,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort23"
     },
     {
         "text": [
@@ -247,7 +271,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort24"
     },
     {
         "text": [
@@ -257,7 +282,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort25"
     },
     {
         "text": [
@@ -267,7 +293,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort26"
     },
     {
         "text": [
@@ -277,7 +304,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort27"
     },
     {
         "text": [
@@ -287,7 +315,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort28"
     },
     {
         "text": [
@@ -297,7 +326,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort29"
     },
     {
         "text": [
@@ -307,7 +337,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort30"
     },
     {
         "text": [
@@ -317,7 +348,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort31"
     },
     {
         "text": [
@@ -327,7 +359,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort32"
     },
     {
         "text": [
@@ -337,7 +370,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort33"
     },
     {
         "text": [
@@ -347,7 +381,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort34"
     },
     {
         "text": [
@@ -357,7 +392,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort35"
     },
     {
         "text": [
@@ -367,7 +403,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort36"
     },
     {
         "text": [
@@ -377,7 +414,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort37"
     },
     {
         "text": [
@@ -387,7 +425,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort38"
     },
     {
         "text": [
@@ -397,7 +436,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort39"
     },
     {
         "text": [
@@ -407,7 +447,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort40"
     },
     {
         "text": [
@@ -417,7 +458,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort41"
     },
     {
         "text": [
@@ -427,7 +469,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort42"
     },
     {
         "text": [
@@ -437,7 +480,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort43"
     },
     {
         "text": [
@@ -447,7 +491,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort44"
     },
     {
         "text": [
@@ -457,7 +502,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort45"
     },
     {
         "text": [
@@ -467,7 +513,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort46"
     },
     {
         "text": [
@@ -477,7 +524,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort47"
     },
     {
         "text": [
@@ -487,7 +535,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort48"
     },
     {
         "text": [
@@ -497,7 +546,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort49"
     },
     {
         "text": [
@@ -507,7 +557,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort50"
     },
     {
         "text": [
@@ -517,7 +568,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort51"
     },
     {
         "text": [
@@ -527,7 +579,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort52"
     },
     {
         "text": [
@@ -537,7 +590,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort53"
     },
     {
         "text": [
@@ -547,7 +601,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort54"
     },
     {
         "text": [
@@ -557,7 +612,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort55"
     },
     {
         "text": [
@@ -567,7 +623,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort56"
     },
     {
         "text": [
@@ -577,7 +634,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort57"
     },
     {
         "text": [
@@ -587,7 +645,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort58"
     },
     {
         "text": [
@@ -597,7 +656,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort59"
     },
     {
         "text": [
@@ -607,7 +667,8 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort60"
     },
     {
         "text": [
@@ -617,6 +678,7 @@
         "playersNeeded": 1,
         "multiStep": true,
         "category": "sprichwort",
-        "endAfterRows": 0
+        "endAfterRows": 0,
+        "id": "sprichwort61"
     }
 ]
