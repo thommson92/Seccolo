@@ -7,7 +7,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules0"
     },
     {
         "text": [
@@ -17,7 +18,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules1"
     },
     {
         "text": [
@@ -27,7 +29,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules2"
     },
     {
         "text": [
@@ -37,7 +40,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules3"
     },
     {
         "text": [
@@ -47,7 +51,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules4"
     },
     {
         "text": [
@@ -57,7 +62,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules5"
     },
     {
         "text": [
@@ -67,7 +73,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules6"
     },
     {
         "text": [
@@ -77,7 +84,8 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules7"
     },
     {
         "text": [
@@ -87,7 +95,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules8"
     },
     {
         "text": [
@@ -97,7 +106,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules9"
     },
     {
         "text": [
@@ -107,7 +117,8 @@
         "playersNeeded": 1,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules10"
     },
     {
         "text": [
@@ -117,6 +128,7 @@
         "playersNeeded": 0,
         "multiStep": false,
         "category": "drinkRules",
-        "endAfterRows": 5
+        "endAfterRows": 5,
+        "id": "drinkRules11"
     }
 ]
