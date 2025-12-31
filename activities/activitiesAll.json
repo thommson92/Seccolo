@@ -2,7 +2,7 @@
     {
         "text": [
             "Jeder Spieler nennt einen deutschen Bundeskanzler (Doppelnennungen erlaub) ...",
-            "Olaf Scholz trinkt 2 Schlücke, Konrad Adenauer verteilt 2 Schlücke."
+            "Merz & Scholz trinken 2 Schlücke, Merkel & Adenauer verteilen 2 Schlücke."
         ],
         "playersNeeded": 2,
         "multiStep": true,
@@ -253,5 +253,16 @@
         "category": "allPlayerActivity",
         "endAfterRows": 0,
         "id": "activitiesAll24"
+    },
+    {
+        "text": [
+            "X beginnt. Wählt reihum euer Haus in Harry Potter. Gryffindor, Hufflepuff, Ravenclaw oder Slytherin? ...",
+            "Gryffindors trinken mutige 2 Schlücke. Slytherins verteilen hinterhältige 2 Schlücke."
+        ],
+        "playersNeeded": 1,
+        "multiStep": true,
+        "category": "allPlayerActivity",
+        "endAfterRows": 0,
+        "id": "activitiesAll25"
     }
 ]

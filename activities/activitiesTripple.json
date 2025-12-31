@@ -61,7 +61,7 @@
     },
     {
         "text": [
-            "X stelle eine Behauptung auf. X und X einigt euch, ob diese wahr oder falsch ist. Liegt ihr richtig, dürft ihr 2 Schlücke verteilen, sonst trinkt ihr 3 Schlücke."
+            "X stelle eine Behauptung auf. X und X einigt euch, ob diese wahr oder falsch ist. Liegt ihr richtig, dürft ihr 2 Schlücke verteilen, sonst trinkt ihr 2 Schlücke."
         ],
         "playersNeeded": 3,
         "multiStep": false,
@@ -81,7 +81,7 @@
     },
     {
         "text": [
-            "X klatsche einen Takt (Maximal 10 Klatscher). X und X müssen diesen nachklatschen. Schaffen sie es, dürfen 2 Schlücke verteilt, sonst 3 getrunken werden."
+            "X klatsche einen Takt (Maximal 10 Klatscher). X und X müssen diesen nachklatschen. Schaffen sie es, dürfen 2 Schlücke verteilt, sonst 2 getrunken werden."
         ],
         "playersNeeded": 3,
         "multiStep": false,
