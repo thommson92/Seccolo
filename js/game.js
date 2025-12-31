@@ -180,7 +180,13 @@ function showNextActivity() {
         nextButton.addEventListener('click', () => {
             const playerParams = players.map((player, index) => `player${index}=${encodeURIComponent(player)}`).join('&');
             const activityIds = shuffledActivities.map(activity => activity.id).join(',');
-            const activityParam = `activityIds=${encodeURIComponent(activityIds)}`;
+            let combinedIds = activityIds;
+            if (playedActivityIds.length > 0) {
+            combinedIds = activityIds
+                ? activityIds + ',' + playedActivityIds.join(',')
+                : playedActivityIds.join(',');
+            }
+            const activityParam = `activityIds=${encodeURIComponent(combinedIds)}`;
             window.location.href = `game.html?${playerParams}&${activityParam}`;
         });
         return;
